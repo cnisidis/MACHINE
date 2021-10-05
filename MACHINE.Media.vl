@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Rb0QN47wHPUQYosY1hk1e4" LanguageVersion="2021.3.3.131" Version="0.128">
-  <NugetDependency Id="TkfCq4fJSDfLx2kKIHsgl7" Location="VL.CoreLib" Version="2021.3.3" />
+<Document xmlns:p="property" Id="Rb0QN47wHPUQYosY1hk1e4" LanguageVersion="2021.4.0.456" Version="0.128">
+  <NugetDependency Id="TkfCq4fJSDfLx2kKIHsgl7" Location="VL.CoreLib" Version="2021.4.0-0456-g0b184b47d2" />
   <Patch Id="F5UPh1KcB7TPUfhhfyCaIo">
     <Canvas Id="BQY5N5btw4QMK26q0mV3xd" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -25,6 +25,7 @@
               <Pin Id="V0OPG5PmNWjPMW886DqZ7M" Name="Preferred FPS" Kind="InputPin" />
               <Pin Id="CHLVHx4ThHRNrtkVATI1a5" Name="Camera Controls" Kind="InputPin" />
               <Pin Id="LKowHAfFnhkPGe5pepU9sU" Name="Video Controls" Kind="InputPin" />
+              <Pin Id="M6FXWcqm2auMBqeRxsy2AZ" Name="Wait Time In Milliseconds" Kind="InputPin" DefaultValue="10" />
               <Pin Id="QNr0irIt22fLw2INJnl4Rc" Name="Enabled" Kind="InputPin" />
               <Pin Id="V4LafcO5yRGNFrWnfzWkQu" Name="Output" Kind="OutputPin" />
               <Pin Id="VOyXYEsaTxtM5LYlnvGZku" Name="Discarded Frames" Kind="OutputPin" />
@@ -64,20 +65,42 @@
               <Pin Id="DllUZQVcdAoNfTp9xn0DNk" Name="Result" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="ITMdcYpIr0yQDMecSev2kj" Bounds="542,301" />
+            <ControlPoint Id="U5TLn8KvXtdMxK6pncrX2N" Bounds="461,261" />
+            <ControlPoint Id="TgGLsC07YyrLYRtyIPOLEM" Bounds="478,220" />
+            <Node Bounds="625,365,185,19" Id="FvBzn5ajXVtOVYOUXwEF9e">
+              <p:NodeReference LastCategoryFullName="Video.MediaFoundation" LastSymbolSource="VL.Video.MediaFoundation.ControlNodes">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessNode" Name="VideoControls" />
+              </p:NodeReference>
+              <Pin Id="Beo3bB6YQpfOmaxbfXexBt" Name="Brightness" Kind="InputPin" />
+              <Pin Id="ERLq1YrPbaeMlCpzRuKeCe" Name="Contrast" Kind="InputPin" />
+              <Pin Id="OWm6v5p3kmFM90TfoXpR9v" Name="Hue" Kind="InputPin" />
+              <Pin Id="Ml27BC8mc0qMRg6weCpNJx" Name="Saturation" Kind="InputPin" />
+              <Pin Id="RoaQg3wS6LsM1dwO4yLAHM" Name="Sharpness" Kind="InputPin" />
+              <Pin Id="RjpR3RAU3glMBIm6F3NWEE" Name="Gamma" Kind="InputPin" />
+              <Pin Id="KjRAG5GWpXGPmYrmzx7DtL" Name="ColorEnable" Kind="InputPin" />
+              <Pin Id="RYS1cwthw6yPHIclLcaVSr" Name="WhiteBalance" Kind="InputPin" />
+              <Pin Id="OAnqnw1EqLJLZmLrd3HoeY" Name="BacklightCompensation" Kind="InputPin" />
+              <Pin Id="L3gVfcl2eSQMNHJR29cwE0" Name="Gain" Kind="InputPin" />
+              <Pin Id="SlVexRuGPZwLB5xZvhTfrE" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Pad Id="P02lXl99uIdMrTvMnMIIZ0" Comment="Gain" Bounds="802,313,35,15" ShowValueBox="true" isIOBox="true" Value="3.61">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Pad Id="I9fw62rSBaZO76HjXKBoA4" Comment="Brightness" Bounds="636,322,35,15" ShowValueBox="true" isIOBox="true" Value="0.56">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
-          <Patch Id="NWkWXQbuuvrPrRunTzpGGq" Name="Create" />
           <ProcessDefinition Id="FByuq0fbe8rMw31MvGjiDs">
             <Fragment Id="Mo6d9FPrSRiOkIDN02I37X" Patch="NWkWXQbuuvrPrRunTzpGGq" Enabled="true" />
             <Fragment Id="AOQwRr7DR32Pv5yRmN7Um4" Patch="RIiGtMFvZ7HQYU3WFrmsXH" Enabled="true" />
           </ProcessDefinition>
           <Link Id="FGH2THrcZmHLRV7G9WFbwT" Ids="IZUvPkjQWOeO6kd5Ev3jGu,PX8AvnTXlFrPUIVZA7Ovqj" />
           <Link Id="VXGzy8Oa5slNRDz5M6qvxj" Ids="T0c59TXvUTKLuiitYAuOGZ,IZUvPkjQWOeO6kd5Ev3jGu" IsHidden="true" />
-          <Patch Id="RIiGtMFvZ7HQYU3WFrmsXH" Name="Update">
-            <Pin Id="T0c59TXvUTKLuiitYAuOGZ" Name="Device" Kind="InputPin" />
-            <Pin Id="BpYqEtbQUWVNtaaOqzXyKo" Name="Texure" Kind="OutputPin" Bounds="437,626" />
-            <Pin Id="Ozib6V9FcPpODiGkuiDKjV" Name="Shared Handle" Kind="OutputPin" Bounds="527,621" />
-            <Pin Id="M2zTXobVE1VLOt5yeSEoJ4" Name="Enabled" Kind="InputPin" Bounds="546,250" />
-          </Patch>
           <Link Id="Buap69mww7CPtWe5EFGLLO" Ids="O1AG1uUi3f1MkLPibfiv5I,MIJSB9wMYn0MxgmEpUUora" />
           <Link Id="Jgbq6i13GFiMFNKJOtbGbd" Ids="GfUBge0JCa8OrwBNQxTYIZ,V0OPG5PmNWjPMW886DqZ7M" />
           <Link Id="QkHV9OR3vZoO8EEg0reuOt" Ids="V4LafcO5yRGNFrWnfzWkQu,LCd6B225aHRPWCG5RlqyOb" />
@@ -92,6 +115,22 @@
           <Link Id="AxL3T3yFh7iMRsIBc9TzIO" Ids="DllUZQVcdAoNfTp9xn0DNk,EjVJPOELI9ANDTiQUUkTCm" />
           <Link Id="LMs8qgccRCrPFlRdzz4i1W" Ids="ITMdcYpIr0yQDMecSev2kj,QNr0irIt22fLw2INJnl4Rc" />
           <Link Id="DN2XgmXxCGcLZ4Nku9nOoc" Ids="M2zTXobVE1VLOt5yeSEoJ4,ITMdcYpIr0yQDMecSev2kj" IsHidden="true" />
+          <Link Id="HD30dfxWPqZNlmlTeoabsG" Ids="U5TLn8KvXtdMxK6pncrX2N,O1AG1uUi3f1MkLPibfiv5I" />
+          <Link Id="CX8qd6Qm93zNled8MbVMHg" Ids="Q0RKl33ZpOwM0dno66jha1,U5TLn8KvXtdMxK6pncrX2N" IsHidden="true" />
+          <Link Id="MCRTLAJMOS9MQTfSigR5fV" Ids="TgGLsC07YyrLYRtyIPOLEM,GfUBge0JCa8OrwBNQxTYIZ" />
+          <Link Id="Jjviqxt81lwNp1rwonS8vl" Ids="OThU9fRqbTlNT7Ifso7VGc,TgGLsC07YyrLYRtyIPOLEM" IsHidden="true" />
+          <Patch Id="NWkWXQbuuvrPrRunTzpGGq" Name="Create" />
+          <Patch Id="RIiGtMFvZ7HQYU3WFrmsXH" Name="Update">
+            <Pin Id="T0c59TXvUTKLuiitYAuOGZ" Name="Device" Kind="InputPin" />
+            <Pin Id="Q0RKl33ZpOwM0dno66jha1" Name="res" Kind="InputPin" Bounds="456,204" />
+            <Pin Id="OThU9fRqbTlNT7Ifso7VGc" Name="fps" Kind="InputPin" Bounds="478,218" />
+            <Pin Id="M2zTXobVE1VLOt5yeSEoJ4" Name="Enabled" Kind="InputPin" Bounds="546,250" />
+            <Pin Id="BpYqEtbQUWVNtaaOqzXyKo" Name="Texure" Kind="OutputPin" Bounds="437,626" />
+            <Pin Id="Ozib6V9FcPpODiGkuiDKjV" Name="Shared Handle" Kind="OutputPin" Bounds="527,621" />
+          </Patch>
+          <Link Id="ND94w7uJfCYMt6YvGueDP6" Ids="SlVexRuGPZwLB5xZvhTfrE,LKowHAfFnhkPGe5pepU9sU" />
+          <Link Id="TCnSEFUHeq7Oobp1Szntt3" Ids="P02lXl99uIdMrTvMnMIIZ0,L3gVfcl2eSQMNHJR29cwE0" />
+          <Link Id="U5qVLgLRS8IMEAMpNBZiRw" Ids="I9fw62rSBaZO76HjXKBoA4,Beo3bB6YQpfOmaxbfXexBt" />
         </Patch>
       </Node>
     </Canvas>
@@ -116,8 +155,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="TFhUYJr4COHO1jNqMK7SgD" Location="VL.CoreLib" Version="2021.3.3" />
+  <NugetDependency Id="TFhUYJr4COHO1jNqMK7SgD" Location="VL.CoreLib" Version="2021.4.0-0456-g0b184b47d2" />
   <NugetDependency Id="LYROLxRrB9fOj122xRNlqv" Location="VL.Video.MediaFoundation" Version="1.0.0" />
-  <NugetDependency Id="LadfuAWwM6oMXKM42BUuRZ" Location="VL.Stride.Runtime" Version="2021.3.3" />
+  <NugetDependency Id="LadfuAWwM6oMXKM42BUuRZ" Location="VL.Stride.Runtime" Version="2021.4.0-0456-g0b184b47d2" />
   <NugetDependency Id="QZzflWUwrxBOKyZV0H6yPU" Location="VL.SharedMemory" Version="0.0.3" />
 </Document>
