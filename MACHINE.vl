@@ -1810,11 +1810,6 @@
             <Patch Id="KxJscuZn742L0QsgsOqQeR" Name="Update">
               <Pin Id="EXhXtAv0gkDPTzjxbUG68t" Name="Result" Kind="OutputPin" Bounds="577,735" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="DK3JNdWo5ElOrJLtlsKges">
               <Fragment Id="ARFGj3Hn1iiPwCXGu4TR0W" Patch="KBlYTOYjSGrO0Itlq3q3RJ" Enabled="true" />
               <Fragment Id="EYgufRtBm27LQagLimA3Ca" Patch="KxJscuZn742L0QsgsOqQeR" Enabled="true" />
@@ -1897,11 +1892,6 @@
             <Patch Id="N2hMTS3ZX9CNmI7QepTEEJ" Name="Update">
               <Pin Id="RHHNJVHMEMYNgqst4RM65d" Name="FPS" Kind="InputPin" Bounds="602,172" DefaultValue="25" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="QPw5u7PqmF0Pq8w1pPfmKl">
               <Fragment Id="RSdLUbtF7KpNAbzpMr2txZ" Patch="Fom8zztM8rcN1xyTaGBK9m" Enabled="true" />
               <Fragment Id="CDYqPwROvZWMoP8TzTo5F6" Patch="N2hMTS3ZX9CNmI7QepTEEJ" Enabled="true" />
@@ -2996,7 +2986,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IPIbgLalkM3PPXbEUaioYp" Comment="File Path" Bounds="1240,-1289,35,15" ShowValueBox="true" isIOBox="true" Value="..\..\LathosXwra\LX_app\resources\CUES\LX_CUES_02_CSV.csv">
+          <Pad Id="IPIbgLalkM3PPXbEUaioYp" Comment="File Path" Bounds="1240,-1289,35,15" ShowValueBox="true" isIOBox="true" Value="ASSETS\CUES\LX_CUES_02_CSV.csv">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -3585,11 +3575,11 @@
     </Node>
   </Patch>
   <NugetDependency Id="F7Z2D1Zp7UgMWkX5d14SAe" Location="VL.CoreLib" Version="2021.4.0-0455-gf5a76a21e8" />
-  <DocumentDependency Id="BRtudhtAtbTLqDgZw1KT8y" Location="./VL.CUE.Core.vl" />
-  <DocumentDependency Id="Iszi0lbN6C5PClZeceGD0W" Location="./VL.CUE.Parser.vl" />
   <NugetDependency Id="IbTgxEgiN3SOw7mFLoA1NN" Location="VL.Skia" Version="2021.4.0-0455-gf5a76a21e8" />
-  <DocumentDependency Id="C8sMI8vKO1YNoNucmmY4Ar" Location="./VL.CUE.Renderer.vl" />
   <NugetDependency Id="HlNARNDzZCqOWKK8jbQBsr" Location="VL.SharedMemory" Version="0.0.3" />
   <DocumentDependency Id="BqgMjB9EdjNMXeMnjgEpRy" Location="./MACHINE.Media.vl" />
   <NugetDependency Id="Oww0338StGKNdjuJYOrk7m" Location="VL.Stride.Runtime" Version="2021.4.0-0455-gf5a76a21e8" />
+  <DocumentDependency Id="KlWkV9jS7ErMQ53MsQnTAw" Location="./VL.CUE/VL.CUE.Core.vl" />
+  <DocumentDependency Id="Ro72zsYsMXmN4wXcaGvwbE" Location="./VL.CUE/VL.CUE.Renderer.vl" />
+  <DocumentDependency Id="MybcvlVJ8NCLaZ1jCjWMrV" Location="./VL.CUE/VL.CUE.Parser.vl" />
 </Document>

@@ -1,0 +1,33 @@
+AA	SCN	ΤΕΧΤ	PROJECTION	ORDER	FILES	FX	FXMODE	FXMODEVALUE	FXEXTRA
+10	A1	ΑΡΧΗ	1S	HANDY	NA	NONE	NONE	0	NONE
+20	A3	ΜΑΡ: ..για την ανθρωπότητα	1S	HANDY, SUPER	D:\	BLUE	ADD	0.64	BLUE
+30	A4	ΜΑΡ: Ο αδερφός του ο Φρεντερίκ ..	1S	WEBC	NA	NONE	NONE	0	NONE
+40	A4	ΜΠΛ: .. αλλά μόνο από την αϋπνία.	1S	HANDY	NA	NONE	NONE	0	NONE
+50	A4	ΑΛ: .. ο μεγάλος από την Αμερική.	1S	WEBC	NA	NONE	NONE	0	NONE
+60	A4	ΜΠΛ: .. διπλανό δωματιο.	1S	HANDY	NA	NONE	NONE	0	NONE
+70	A5	ΜΠΛ: .. παράξενο αίσθημα	1S	FOOTAGE, HANDY	D:\..	BLEND	BLEND	0.6	NONE
+80	A6	ΑΛ: .. “Φρεντερικ και Καρλ	3S	HANDY, WEBC, FOOTAGE	D:\	NONE	NONE	0	NONE
+85	A6	ΑΛ: Κάθε μέρα η μητέρα έχανε ..	2S	FOOTAGE, HANDY	D:\	NONE	NONE	0	NONE
+90	A6	ΑΛ: .. είχε πέσει στα χέρια της.	1S	FOOTAGE	D:\..	NONE	NONE	0	NONE
+100	A6	ΜΠΛ: Ο Καρλ είχε ζήσει ..	1S	WEBC	NA	NONE	NONE	0	NONE
+110	A6	ΜΑΡ: .. Αυτό ένιωθε ο Φρεντερίκ.	1S	HANDY	NA	NONE	NONE	0	NONE
+120	A7	ΜΑΡ: .. πάνω στο φέρετρο.	2S	HANDY, WEBL	NA	NONE	NONE	0	NONE
+130	A7	ΜΑΡ: .. λιγότερη ταυτότητα.	1S	HANDY	NA	NONE	NONE	0	NONE
+140	A8	ΜΠΛ: .. από το ίδιο του το σπίτι.	1S	WEBL	NA	NONE	NONE	0	NONE
+150	A8	ΜΑΡ: .. και Γερμανοί αστυνομικοί.	1S	HANDY	NA	NONE	NONE	0	NONE
+160	A8	ΜΑΡ: .. κάτω από τα πόδια του	1S	WEBL	NA	NONE	NONE	0	NONE
+170	A8	ΜΠΛ:  Tiranovskaja Biblioteka	1S	HANDY	NA	NONE	NONE	0	NONE
+180	A8	ΜΑΡ: .. αλλάξει.	1S	WEBL	NA	NONE	NONE	0	NONE
+190	A10	ΑΛ: ..στα Τίρανα	1S	FOOTAGE	D:\	NONE	NONE	0	NONE
+200	A10	ΜΑΡ: 20 Φεβρουαρίου1991	1S	HANDY	NA	NONE	NONE	0	NONE
+210	A11	ΜΑΡ: .. Cyndi Lauper και του Prince.	1S	WEBC	NA	NONE	NONE	0	NONE
+220	A12	ΑΛ: Μήπως ψάχνεις το παπούτσι σου	1S	HANDY	NA	NONE	NONE	0	NONE
+230	A13	ΜΠΛ: Όταν Ξύπνησε την επόμενη ..	1S	WEBC	NA	NONE	NONE	0	NONE
+240	A13	ΜΠΛ: .. στην πολυκατοικία της,	1S	WEBL	NA	NONE	NONE	0	NONE
+250	A13	ΜΠΛ: Ανέβηκε διστακτικά ..	1S	HANDY	NA	NONE	NONE	0	NONE
+260	B1	ΑΛ: 1991	1S	FOOTAGE	NA	NONE	NONE	0	NONE
+270	B1	ΜΑΡ: Αφού περιπλανήθηκε .. 	1S	HANDY, FOOTAGE	NA	BLEND	BLEND	0.2	NONE
+280	B1	ΜΑΡ: Ο Καρλ σηκώθηκε όρθιος …	1S	HANDY	NA	NONE	NONE	0	NONE
+290	B2	ΑΛ: .. 1991 τα ξημερώματα,	1S	WEBR	NA	NONE	NONE	0	NONE
+300	B2	ΜΑΡ: Τότε τον πλησίασε μια ..	1S	HANDY	NA	NONE	NONE	0	NONE
+310	B2	ΜΠΛ: Εκείνη τη στιγμή ..	1S	HANDY, WEBR	NA	BLEND	BLEND	0.4	NONE
