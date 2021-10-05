@@ -1980,7 +1980,7 @@
       </p:NodeReference>
       <Patch Id="CmZF3bY1iMmPewGYsPs5MI">
         <Canvas Id="D2otQGw0MtOMM5goDVxusl" CanvasType="Group">
-          <Node Bounds="405,-1116,69,19" Id="Ncyv3i9xh72P0aAspmAqra">
+          <Node Bounds="405,-1103,69,19" Id="Ncyv3i9xh72P0aAspmAqra">
             <p:NodeReference LastCategoryFullName="VL.CUE.Core" LastSymbolSource="VL.CUE.Core.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CreateCUEs" />
@@ -2197,7 +2197,7 @@
             <Pin Id="IwQKahIDKFlMATAOSgXVnD" Name="Scene" Kind="InputPin" />
             <Pin Id="Nph7tFiW29WPD037cHRq0z" Name="Group" Kind="InputPin" />
             <Pin Id="KMFii7S9Q4fLPTSRS7HVXb" Name="Text" Kind="InputPin" />
-            <Pin Id="Jngz3deuLUsM48cJJuMIG3" Name="color" Kind="InputPin" />
+            <Pin Id="Jngz3deuLUsM48cJJuMIG3" Name="color" Kind="InputPin" DefaultValue="0.3300005, 0.3300005, 0.3300005, 1" />
             <Pin Id="OBtH0izfc3KPuZFGJmo0pM" Name="Actions" Kind="InputPin" />
             <Pin Id="OGkTzbvCmQWNXzk3KHgJUv" Name="Sources" Kind="InputPin" />
             <Pin Id="BpUim37YhydPcNPbKua0YE" Name="isPressed" Kind="InputPin" />
@@ -3560,6 +3560,11 @@
           </Node>
           <Pad Id="MckyquRAOqaMt5VQBJq4dn" SlotId="Daibtcda7InOIARdTp0LKo" Bounds="1868,-1503" />
           <Pad Id="BgnHpnVvHaqLxY49DtDLJW" Comment="CLOSE" Bounds="1921,-1476,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="RXq9mnnWGV5PEjalBFkH4D" Comment="DefaultColor" Bounds="476,-1251,136,15" ShowValueBox="true" isIOBox="true" Value="0.2899999, 0.2899999, 0.2899999, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="CQHeTy94ox1Oi96If3Tcrk" Name="Create" ParticipatingElements="H4jIyFxzLTrPCjMCubyluH" />
         <Patch Id="RECF2KejMfSOafv7JHNLMD" Name="Update" />
@@ -3838,6 +3843,7 @@
         <Link Id="Bw1t0Gko1oGOnJI2SmytAJ" Ids="MckyquRAOqaMt5VQBJq4dn,TkEx1g4t7a1OiVbS4mnMc9" />
         <Link Id="IZnpxbS5sgZOCMhFwHjgik" Ids="Luh9K9neBN6QbEPxgz3W96,VFXXqSrfmuUMwfBMG3la44" />
         <Link Id="HIl1a2oADnINPsPkJ3oaeZ" Ids="MckyquRAOqaMt5VQBJq4dn,BgnHpnVvHaqLxY49DtDLJW" />
+        <Link Id="T3BtJY2SJfYM2DCSDTYbzD" Ids="RXq9mnnWGV5PEjalBFkH4D,UEjINNc6E4cPUi24k4UMua" />
       </Patch>
     </Node>
   </Patch>
