@@ -3560,7 +3560,7 @@
           </Node>
           <Pad Id="MckyquRAOqaMt5VQBJq4dn" SlotId="Daibtcda7InOIARdTp0LKo" Bounds="1868,-1503" />
           <Pad Id="BgnHpnVvHaqLxY49DtDLJW" Comment="CLOSE" Bounds="1921,-1476,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="RXq9mnnWGV5PEjalBFkH4D" Comment="DefaultColor" Bounds="476,-1251,136,15" ShowValueBox="true" isIOBox="true" Value="0.2899999, 0.2899999, 0.2899999, 1">
+          <Pad Id="RXq9mnnWGV5PEjalBFkH4D" Comment="DefaultColor" Bounds="470,-1137,27,23" ShowValueBox="true" isIOBox="true" Value="0.2899999, 0.2899999, 0.2899999, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
