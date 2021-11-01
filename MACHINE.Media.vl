@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Rb0QN47wHPUQYosY1hk1e4" LanguageVersion="2021.4.0.456" Version="0.128">
-  <NugetDependency Id="TkfCq4fJSDfLx2kKIHsgl7" Location="VL.CoreLib" Version="2021.4.0-0456-g0b184b47d2" />
+<Document xmlns:p="property" Id="Rb0QN47wHPUQYosY1hk1e4" LanguageVersion="2021.4.0.594" Version="0.128">
+  <NugetDependency Id="TkfCq4fJSDfLx2kKIHsgl7" Location="VL.CoreLib" Version="2021.4.0-0594-g2802d941cd" />
   <Patch Id="F5UPh1KcB7TPUfhhfyCaIo">
     <Canvas Id="BQY5N5btw4QMK26q0mV3xd" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -15,23 +15,6 @@
         </p:NodeReference>
         <Patch Id="Rhr3o5gKesVLHy4h7G5RGn">
           <Canvas Id="Lqh30KdViicQTBcoAFlrE0" CanvasType="Group">
-            <Node Bounds="439,389" Id="AV3cFIdd9JANwbTyAKMV8b">
-              <p:NodeReference LastCategoryFullName="Video.MediaFoundation" LastSymbolSource="VL.Video.MediaFoundation.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="VideoIn" />
-              </p:NodeReference>
-              <Pin Id="PX8AvnTXlFrPUIVZA7Ovqj" Name="Device" Kind="InputPin" />
-              <Pin Id="MIJSB9wMYn0MxgmEpUUora" Name="Preferred Size" Kind="InputPin" />
-              <Pin Id="V0OPG5PmNWjPMW886DqZ7M" Name="Preferred FPS" Kind="InputPin" />
-              <Pin Id="CHLVHx4ThHRNrtkVATI1a5" Name="Camera Controls" Kind="InputPin" />
-              <Pin Id="LKowHAfFnhkPGe5pepU9sU" Name="Video Controls" Kind="InputPin" />
-              <Pin Id="M6FXWcqm2auMBqeRxsy2AZ" Name="Wait Time In Milliseconds" Kind="InputPin" DefaultValue="0" />
-              <Pin Id="QNr0irIt22fLw2INJnl4Rc" Name="Enabled" Kind="InputPin" />
-              <Pin Id="V4LafcO5yRGNFrWnfzWkQu" Name="Output" Kind="OutputPin" />
-              <Pin Id="VOyXYEsaTxtM5LYlnvGZku" Name="Discarded Frames" Kind="OutputPin" />
-              <Pin Id="GfI5lzQgKDIOgRJXnCt4KW" Name="Actual FPS" Kind="OutputPin" />
-              <Pin Id="SkHdpFWUqsYNJCAAdhBB7W" Name="Supported Formats" Kind="OutputPin" />
-            </Node>
             <ControlPoint Id="IZUvPkjQWOeO6kd5Ev3jGu" Bounds="441,305" />
             <Pad Id="O1AG1uUi3f1MkLPibfiv5I" Comment="Preferred Size" Bounds="461,352,35,28" ShowValueBox="true" isIOBox="true" Value="640, 480">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -44,7 +27,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="439,432,105,19" Id="VAKZStTDrlsNN97GiBprMi">
-              <p:NodeReference LastCategoryFullName="Stride.Textures" LastSymbolSource="VL.Stride.Rendering.vl">
+              <p:NodeReference LastCategoryFullName="Stride.Rendering" LastSymbolSource="VL.Stride.Windows.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="AsSharedTexture" />
               </p:NodeReference>
@@ -67,7 +50,7 @@
             <ControlPoint Id="ITMdcYpIr0yQDMecSev2kj" Bounds="542,301" />
             <ControlPoint Id="U5TLn8KvXtdMxK6pncrX2N" Bounds="461,261" />
             <ControlPoint Id="TgGLsC07YyrLYRtyIPOLEM" Bounds="478,220" />
-            <Node Bounds="625,365,185,19" Id="FvBzn5ajXVtOVYOUXwEF9e">
+            <Node Bounds="632,359,185,19" Id="FvBzn5ajXVtOVYOUXwEF9e">
               <p:NodeReference LastCategoryFullName="Video.MediaFoundation" LastSymbolSource="VL.Video.MediaFoundation.ControlNodes">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="VideoControls" />
@@ -104,16 +87,28 @@
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pad>
+            <Node Bounds="438,392,105,19" Id="KqwLdn5ZEjQNEQLFsd6SaN">
+              <p:NodeReference LastCategoryFullName="Video.MediaFoundation" LastSymbolSource="VL.Video.MediaFoundation.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="VideoIn (Stride)" />
+              </p:NodeReference>
+              <Pin Id="MUGB6les3WyM5QD4kN6qXr" Name="Device" Kind="InputPin" />
+              <Pin Id="NYMWyiAzuo0Lr8GB4zArKX" Name="Preferred Size" Kind="InputPin" />
+              <Pin Id="OCOUam3qAq5P4JNs4Vdimk" Name="Preferred FPS" Kind="InputPin" />
+              <Pin Id="NCCeBdPPVP0NJGASLc4fhT" Name="Camera Controls" Kind="InputPin" />
+              <Pin Id="PeqSOeYlE6OOcL1epGpCT7" Name="Video Controls" Kind="InputPin" />
+              <Pin Id="FPQDWsHaJIUMr2V12EhI2F" Name="Enabled" Kind="InputPin" />
+              <Pin Id="EHTfmNVfJFyMPdtDUHNTf0" Name="Output" Kind="OutputPin" />
+              <Pin Id="VczGyY7EufBNqjK4XeoriJ" Name="Discarded Frames" Kind="OutputPin" />
+              <Pin Id="JEvn3QYrOGvLlfah1WM2cu" Name="Actual FPS" Kind="OutputPin" />
+              <Pin Id="Uez8RcQvlWZPc8JOo7m1F8" Name="Supported Formats" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <ProcessDefinition Id="FByuq0fbe8rMw31MvGjiDs">
             <Fragment Id="Mo6d9FPrSRiOkIDN02I37X" Patch="NWkWXQbuuvrPrRunTzpGGq" Enabled="true" />
             <Fragment Id="AOQwRr7DR32Pv5yRmN7Um4" Patch="RIiGtMFvZ7HQYU3WFrmsXH" Enabled="true" />
           </ProcessDefinition>
-          <Link Id="FGH2THrcZmHLRV7G9WFbwT" Ids="IZUvPkjQWOeO6kd5Ev3jGu,PX8AvnTXlFrPUIVZA7Ovqj" />
           <Link Id="VXGzy8Oa5slNRDz5M6qvxj" Ids="T0c59TXvUTKLuiitYAuOGZ,IZUvPkjQWOeO6kd5Ev3jGu" IsHidden="true" />
-          <Link Id="Buap69mww7CPtWe5EFGLLO" Ids="O1AG1uUi3f1MkLPibfiv5I,MIJSB9wMYn0MxgmEpUUora" />
-          <Link Id="Jgbq6i13GFiMFNKJOtbGbd" Ids="GfUBge0JCa8OrwBNQxTYIZ,V0OPG5PmNWjPMW886DqZ7M" />
-          <Link Id="QkHV9OR3vZoO8EEg0reuOt" Ids="V4LafcO5yRGNFrWnfzWkQu,LCd6B225aHRPWCG5RlqyOb" />
           <Slot Id="VqFH9u7eHvLOIgL25CICbp" Name="Shared Handle" />
           <Link Id="CJ2Hr5av5leNGF2V2D4Lru" Ids="KHog8gYMSs5OQNCItnn1bY,QbU1f106SYhPPgJtOgLeT4" />
           <Slot Id="NV19mFPRAGPOb2xmiXTdOG" Name="Texure" />
@@ -123,7 +118,6 @@
           <Link Id="T9N0BupvN3pQdOxBy2Kj1G" Ids="EjVJPOELI9ANDTiQUUkTCm,Ozib6V9FcPpODiGkuiDKjV" IsHidden="true" />
           <Link Id="FAlY23vJ2RGOuOkxYJIBk4" Ids="QbU1f106SYhPPgJtOgLeT4,GLoXsK0ai59MH6UmKwrA8p" />
           <Link Id="AxL3T3yFh7iMRsIBc9TzIO" Ids="DllUZQVcdAoNfTp9xn0DNk,EjVJPOELI9ANDTiQUUkTCm" />
-          <Link Id="LMs8qgccRCrPFlRdzz4i1W" Ids="ITMdcYpIr0yQDMecSev2kj,QNr0irIt22fLw2INJnl4Rc" />
           <Link Id="DN2XgmXxCGcLZ4Nku9nOoc" Ids="M2zTXobVE1VLOt5yeSEoJ4,ITMdcYpIr0yQDMecSev2kj" IsHidden="true" />
           <Link Id="HD30dfxWPqZNlmlTeoabsG" Ids="U5TLn8KvXtdMxK6pncrX2N,O1AG1uUi3f1MkLPibfiv5I" />
           <Link Id="CX8qd6Qm93zNled8MbVMHg" Ids="Q0RKl33ZpOwM0dno66jha1,U5TLn8KvXtdMxK6pncrX2N" IsHidden="true" />
@@ -142,6 +136,9 @@
           <Link Id="U5qVLgLRS8IMEAMpNBZiRw" Ids="I9fw62rSBaZO76HjXKBoA4,Beo3bB6YQpfOmaxbfXexBt" />
           <Link Id="CTw0wtl864AMK1Xv8CWE1g" Ids="TI4ppkHSfjxNfi8lR3mGd6,RYS1cwthw6yPHIclLcaVSr" />
           <Link Id="TzJ9OExapHsQLRiaKQ4TIj" Ids="N7NRTZMz7ZJQLGZJ5R0XmX,OAnqnw1EqLJLZmLrd3HoeY" />
+          <Link Id="D7K7VsZhh5sPXBpNdudKxD" Ids="IZUvPkjQWOeO6kd5Ev3jGu,MUGB6les3WyM5QD4kN6qXr" />
+          <Link Id="KwPpDwfWhFTNpgC0BYmxQE" Ids="ITMdcYpIr0yQDMecSev2kj,FPQDWsHaJIUMr2V12EhI2F" />
+          <Link Id="Vth3JC4yvlhL3b1hZNskjP" Ids="EHTfmNVfJFyMPdtDUHNTf0,LCd6B225aHRPWCG5RlqyOb" />
         </Patch>
       </Node>
     </Canvas>
@@ -166,8 +163,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="TFhUYJr4COHO1jNqMK7SgD" Location="VL.CoreLib" Version="2021.4.0-0456-g0b184b47d2" />
-  <NugetDependency Id="LYROLxRrB9fOj122xRNlqv" Location="VL.Video.MediaFoundation" Version="1.0.0" />
-  <NugetDependency Id="LadfuAWwM6oMXKM42BUuRZ" Location="VL.Stride.Runtime" Version="2021.4.0-0456-g0b184b47d2" />
+  <NugetDependency Id="TFhUYJr4COHO1jNqMK7SgD" Location="VL.CoreLib" Version="2021.4.0-0594-g2802d941cd" />
+  <NugetDependency Id="LYROLxRrB9fOj122xRNlqv" Location="VL.Video.MediaFoundation" Version="1.0.5" />
+  <NugetDependency Id="LadfuAWwM6oMXKM42BUuRZ" Location="VL.Stride.Runtime" Version="2021.4.0-0594-g2802d941cd" />
   <NugetDependency Id="QZzflWUwrxBOKyZV0H6yPU" Location="VL.SharedMemory" Version="0.0.3" />
+  <NugetDependency Id="MHOXZKgethENyNXRrKEV2v" Location="VL.Stride.Windows" Version="2021.4.0-0594-g2802d941cd" />
 </Document>
