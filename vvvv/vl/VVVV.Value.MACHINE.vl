@@ -258,6 +258,9 @@
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
               <Pin Id="IYzrrvk0CJQLaE7Ap8YAR3" Name="Break" Kind="OutputPin" />
+              <ControlPoint Id="BVmU0ecI68XQdGq9bl89of" Bounds="643,912" Alignment="Top" />
+              <ControlPoint Id="NTndpKb95ptPij5avx44ZB" Bounds="670,1052" Alignment="Bottom" />
+              <ControlPoint Id="Irt7KoBB4mtQGNu3Mqt4jT" Bounds="923,1052" Alignment="Bottom" />
               <Patch Id="LQg5sqcAlj5OFBrey0uPS2" ManuallySortedPins="true">
                 <Patch Id="B9ysoZketmzLZ62rwwqgCo" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="LLpdwOgDWeCOmmXx3GOfyp" Name="Update" ManuallySortedPins="true" />
@@ -272,6 +275,7 @@
                   <Pin Id="Njs2oNQMggEMRAzVlkcRyS" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="SbysO2IAsmlNQdiwAetHlt" Name="name" Kind="OutputPin" />
                   <Pin Id="HrTVgLKEBwAOUcQJUG90Y4" Name="type" Kind="OutputPin" />
+                  <Pin Id="BCvbrC7gkIRO7Q04R0lEsZ" Name="content" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="838,914,131,132" Id="F9uwenWB9ihPRJCdfKCGOi">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
@@ -303,9 +307,6 @@
                   <ControlPoint Id="Lv8ZhWJdl1uLdp7Yzp4DXg" Bounds="923,1040" Alignment="Bottom" />
                 </Node>
               </Patch>
-              <ControlPoint Id="BVmU0ecI68XQdGq9bl89of" Bounds="643,912" Alignment="Top" />
-              <ControlPoint Id="NTndpKb95ptPij5avx44ZB" Bounds="670,1052" Alignment="Bottom" />
-              <ControlPoint Id="Irt7KoBB4mtQGNu3Mqt4jT" Bounds="923,1052" Alignment="Bottom" />
             </Node>
             <Node Bounds="639,860,49,19" Id="IRZstHwz5bYPXGlkR7wzEA">
               <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
@@ -474,6 +475,6 @@
       </Patch>
     </Node>
   </Patch>
-  <DocumentDependency Id="DdyJtkH0KlhN6neAI1B235" Location="../../VL.CUE.Core.vl" />
   <NugetDependency Id="NJOwG53oe2uQQnwIYeejc7" Location="VL.SharedMemory" Version="0.0.3" />
+  <DocumentDependency Id="TQek4YAZ9ImQVrb1z4lSuk" Location="../../VL.CUE/VL.CUE.Core.vl" />
 </Document>

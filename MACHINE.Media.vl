@@ -25,7 +25,7 @@
               <Pin Id="V0OPG5PmNWjPMW886DqZ7M" Name="Preferred FPS" Kind="InputPin" />
               <Pin Id="CHLVHx4ThHRNrtkVATI1a5" Name="Camera Controls" Kind="InputPin" />
               <Pin Id="LKowHAfFnhkPGe5pepU9sU" Name="Video Controls" Kind="InputPin" />
-              <Pin Id="M6FXWcqm2auMBqeRxsy2AZ" Name="Wait Time In Milliseconds" Kind="InputPin" DefaultValue="10" />
+              <Pin Id="M6FXWcqm2auMBqeRxsy2AZ" Name="Wait Time In Milliseconds" Kind="InputPin" DefaultValue="0" />
               <Pin Id="QNr0irIt22fLw2INJnl4Rc" Name="Enabled" Kind="InputPin" />
               <Pin Id="V4LafcO5yRGNFrWnfzWkQu" Name="Output" Kind="OutputPin" />
               <Pin Id="VOyXYEsaTxtM5LYlnvGZku" Name="Discarded Frames" Kind="OutputPin" />
@@ -84,12 +84,22 @@
               <Pin Id="L3gVfcl2eSQMNHJR29cwE0" Name="Gain" Kind="InputPin" />
               <Pin Id="SlVexRuGPZwLB5xZvhTfrE" Name="Output" Kind="OutputPin" />
             </Node>
-            <Pad Id="P02lXl99uIdMrTvMnMIIZ0" Comment="Gain" Bounds="802,313,35,15" ShowValueBox="true" isIOBox="true" Value="3.61">
+            <Pad Id="P02lXl99uIdMrTvMnMIIZ0" Comment="Gain" Bounds="802,313,35,15" ShowValueBox="true" isIOBox="true" Value="1">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="I9fw62rSBaZO76HjXKBoA4" Comment="Brightness" Bounds="636,322,35,15" ShowValueBox="true" isIOBox="true" Value="0.56">
+            <Pad Id="I9fw62rSBaZO76HjXKBoA4" Comment="Brightness" Bounds="636,322,35,15" ShowValueBox="true" isIOBox="true" Value="0.43">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Pad Id="TI4ppkHSfjxNfi8lR3mGd6" Comment="WhiteBalance" Bounds="769,269,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Float32" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Pad Id="N7NRTZMz7ZJQLGZJ5R0XmX" Comment="BacklightCompensation" Bounds="786,218,35,15" ShowValueBox="true" isIOBox="true" Value="0">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
@@ -128,9 +138,10 @@
             <Pin Id="BpYqEtbQUWVNtaaOqzXyKo" Name="Texure" Kind="OutputPin" Bounds="437,626" />
             <Pin Id="Ozib6V9FcPpODiGkuiDKjV" Name="Shared Handle" Kind="OutputPin" Bounds="527,621" />
           </Patch>
-          <Link Id="ND94w7uJfCYMt6YvGueDP6" Ids="SlVexRuGPZwLB5xZvhTfrE,LKowHAfFnhkPGe5pepU9sU" />
           <Link Id="TCnSEFUHeq7Oobp1Szntt3" Ids="P02lXl99uIdMrTvMnMIIZ0,L3gVfcl2eSQMNHJR29cwE0" />
           <Link Id="U5qVLgLRS8IMEAMpNBZiRw" Ids="I9fw62rSBaZO76HjXKBoA4,Beo3bB6YQpfOmaxbfXexBt" />
+          <Link Id="CTw0wtl864AMK1Xv8CWE1g" Ids="TI4ppkHSfjxNfi8lR3mGd6,RYS1cwthw6yPHIclLcaVSr" />
+          <Link Id="TzJ9OExapHsQLRiaKQ4TIj" Ids="N7NRTZMz7ZJQLGZJ5R0XmX,OAnqnw1EqLJLZmLrd3HoeY" />
         </Patch>
       </Node>
     </Canvas>
