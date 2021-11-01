@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TKANMm8QW8elcpQ879SG67LSyeOuHYri9TMzgMZRMAk8K4tduX/bs49L2gaBB/Ck2K/M/oLQ0pgcP4j2xL1xWg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\VL_Repos\\MACHINE\\src\\MACHINE.Utils\\MACHINE.Utils.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\makei\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\makei\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
