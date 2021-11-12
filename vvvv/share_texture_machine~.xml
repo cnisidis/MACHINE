@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="D:\Projects\VL_Repos\MACHINE\vvvv\share_texture_machine.v4p" scrollx="7590" scrolly="1230" systemname="share_texture_machine" filename="D:\Projects\VL_Repos\VL.CUE\vvvv\share_texture_machine.v4p">
+   <PATCH nodename="D:\Projects\VL_Repos\MACHINE\vvvv\share_texture_machine.v4p" scrollx="7590" scrolly="3750" systemname="share_texture_machine" filename="D:\Projects\VL_Repos\VL.CUE\vvvv\share_texture_machine.v4p">
    <BOUNDS type="Window" left="33930" top="5220" width="25695" height="15435">
    </BOUNDS>
    <NODE systemname="MainLoop (VVVV)" nodename="MainLoop (VVVV)" componentmode="Hidden" id="-6">
@@ -1031,7 +1031,7 @@
    <LINK srcnodeid="133" srcpinname="Y Output Value" dstnodeid="130" dstpinname="ScaleTexture">
    </LINK>
    <NODE systemname="BlendBasic (DX11.TextureFX)" filename="%VVVV%\packs\dx11\nodes\texture11\Mixer\BlendBasic.tfx" nodename="BlendBasic (DX11.TextureFX)" componentmode="Hidden" id="134">
-   <BOUNDS type="Node" left="18960" top="12255" width="100" height="100">
+   <BOUNDS type="Node" left="20295" top="12945" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Texture In" visible="1" slicecount="1" values="||">
    </PIN>
@@ -1047,7 +1047,7 @@
    </PIN>
    </NODE>
    <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="135">
-   <BOUNDS type="Node" left="18975" top="11220" width="100" height="100">
+   <BOUNDS type="Node" left="20310" top="11910" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
    </PIN>
@@ -1059,9 +1059,9 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="136">
-   <BOUNDS type="Node" left="19590" top="10860" width="100" height="100">
+   <BOUNDS type="Node" left="20925" top="11550" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="19590" top="10860" width="795" height="240">
+   <BOUNDS type="Box" left="20925" top="11550" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
@@ -1069,7 +1069,7 @@
    <LINK srcnodeid="135" srcpinname="Output Node" dstnodeid="134" dstpinname="Texture In">
    </LINK>
    <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="138">
-   <BOUNDS type="Node" left="19665" top="11190" width="100" height="100">
+   <BOUNDS type="Node" left="21000" top="11880" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
    </PIN>
@@ -1219,9 +1219,9 @@
    <LINK srcnodeid="111" srcpinname="Output Node" dstnodeid="138" dstpinname="Input Node">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="158">
-   <BOUNDS type="Box" left="19455" top="11805" width="795" height="240">
+   <BOUNDS type="Box" left="20790" top="12495" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="19455" top="11805" width="0" height="0">
+   <BOUNDS type="Node" left="20790" top="12495" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.56">
    </PIN>
@@ -1653,7 +1653,7 @@
    <LINK srcnodeid="226" srcpinname="Palying" dstnodeid="230" dstpinname="Y Input Value">
    </LINK>
    <NODE systemname="SplitTextureFx (Value)" filename="vl\VVVV.Value.MACHINE.vl" nodename="SplitTextureFx (Value)" componentmode="Hidden" id="231">
-   <BOUNDS type="Node" left="17250" top="11745" width="100" height="100">
+   <BOUNDS type="Node" left="17670" top="11775" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -1665,7 +1665,7 @@
    <LINK srcnodeid="16" srcpinname="TextureFX" dstnodeid="231" dstpinname="Input">
    </LINK>
    <NODE systemname="BlendBasic (DX11.TextureFX)" filename="%VVVV%\packs\dx11\nodes\texture11\Mixer\BlendBasic.tfx" nodename="BlendBasic (DX11.TextureFX)" componentmode="Hidden" id="232">
-   <BOUNDS type="Node" left="17655" top="16185" width="100" height="100">
+   <BOUNDS type="Node" left="17655" top="16320" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Texture In" visible="1" slicecount="1" values="||">
    </PIN>
@@ -1699,7 +1699,7 @@
    </PIN>
    </NODE>
    <NODE systemname="EQ (String)" nodename="EQ (String)" componentmode="Hidden" id="234">
-   <BOUNDS type="Node" left="19095" top="15120" width="100" height="100">
+   <BOUNDS type="Node" left="19365" top="13035" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -1709,9 +1709,9 @@
    </PIN>
    </NODE>
    <NODE systemname="DynamicTexture (DX11.Texture 2d Color)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="DynamicTexture (DX11.Texture 2d Color)" componentmode="Hidden" id="235">
-   <BOUNDS type="Node" left="18900" top="15945" width="100" height="100">
+   <BOUNDS type="Node" left="19215" top="15870" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="18900" top="15945" width="3000" height="3000">
+   <BOUNDS type="Box" left="19215" top="15870" width="3000" height="3000">
    </BOUNDS>
    <PIN pinname="Width" slicecount="1" values="1920">
    </PIN>
@@ -1725,7 +1725,7 @@
    </PIN>
    </NODE>
    <NODE systemname="OnOpen (VVVV)" nodename="OnOpen (VVVV)" componentmode="Hidden" id="236">
-   <BOUNDS type="Node" left="19995" top="15480" width="100" height="100">
+   <BOUNDS type="Node" left="20310" top="15405" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Bang" visible="1">
    </PIN>
@@ -1737,9 +1737,9 @@
    <LINK srcnodeid="235" srcpinname="Texture Out" dstnodeid="232" dstpinname="Texture In 2">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="237">
-   <BOUNDS type="Box" left="19995" top="14865" width="480" height="480">
+   <BOUNDS type="Box" left="20310" top="14790" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="19995" top="14865" width="0" height="0">
+   <BOUNDS type="Node" left="20310" top="14790" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
@@ -1757,7 +1757,7 @@
    <LINK srcnodeid="237" srcpinname="Y Output Value" dstnodeid="236" dstpinname="Simulate">
    </LINK>
    <NODE systemname="AvoidNIL (Spreads)" filename="%VVVV%\lib\nodes\modules\Spreads\AvoidNIL (Spreads).v4p" nodename="AvoidNIL (Spreads)" componentmode="Hidden" id="238">
-   <BOUNDS type="Node" left="19065" top="15600" width="100" height="100">
+   <BOUNDS type="Node" left="19380" top="15525" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -1769,7 +1769,7 @@
    <LINK srcnodeid="238" srcpinname="Output" dstnodeid="232" dstpinname="Enabled">
    </LINK>
    <NODE systemname="AvoidNIL (Spreads)" filename="%VVVV%\lib\nodes\modules\Spreads\AvoidNIL (Spreads).v4p" nodename="AvoidNIL (Spreads)" componentmode="Hidden" id="239">
-   <BOUNDS type="Node" left="18165" top="15600" width="100" height="100">
+   <BOUNDS type="Node" left="18480" top="15525" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="1" values="0">
    </PIN>
@@ -1807,8 +1807,6 @@
    <LINK srcnodeid="231" srcpinname="type" dstnodeid="241" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="241" srcpinname="Output" dstnodeid="240" dstpinname="Input 1">
-   </LINK>
-   <LINK srcnodeid="240" srcpinname="Output" dstnodeid="233" dstpinname="Switch">
    </LINK>
    <LINK srcnodeid="241" srcpinname="Output" dstnodeid="234" dstpinname="Input 1">
    </LINK>
@@ -1951,5 +1949,21 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="249" srcpinname="Y Output Value" dstnodeid="247" dstpinname="ScaleXY">
+   </LINK>
+   <NODE systemname="OR (Boolean)" nodename="OR (Boolean)" componentmode="Hidden" id="250">
+   <BOUNDS type="Node" left="17700" top="13365" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="240" srcpinname="Output" dstnodeid="250" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="234" srcpinname="Output" dstnodeid="250" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="250" srcpinname="Output" dstnodeid="233" dstpinname="Switch">
    </LINK>
    </PATCH>
