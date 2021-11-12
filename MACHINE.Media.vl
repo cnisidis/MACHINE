@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Rb0QN47wHPUQYosY1hk1e4" LanguageVersion="2021.4.0.594" Version="0.128">
-  <NugetDependency Id="TkfCq4fJSDfLx2kKIHsgl7" Location="VL.CoreLib" Version="2021.4.0-0594-g2802d941cd" />
+<Document xmlns:p="property" Id="Rb0QN47wHPUQYosY1hk1e4" LanguageVersion="2021.4.0.613" Version="0.128">
+  <NugetDependency Id="TkfCq4fJSDfLx2kKIHsgl7" Location="VL.CoreLib" Version="2021.4.0-0613-g3afe96c078" />
   <Patch Id="F5UPh1KcB7TPUfhhfyCaIo">
     <Canvas Id="BQY5N5btw4QMK26q0mV3xd" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -163,9 +163,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="TFhUYJr4COHO1jNqMK7SgD" Location="VL.CoreLib" Version="2021.4.0-0594-g2802d941cd" />
+  <NugetDependency Id="TFhUYJr4COHO1jNqMK7SgD" Location="VL.CoreLib" Version="2021.4.0-0613-g3afe96c078" />
   <NugetDependency Id="LYROLxRrB9fOj122xRNlqv" Location="VL.Video.MediaFoundation" Version="1.0.5" />
-  <NugetDependency Id="LadfuAWwM6oMXKM42BUuRZ" Location="VL.Stride.Runtime" Version="2021.4.0-0594-g2802d941cd" />
+  <NugetDependency Id="LadfuAWwM6oMXKM42BUuRZ" Location="VL.Stride.Runtime" Version="2021.4.0-0613-g3afe96c078" />
   <NugetDependency Id="QZzflWUwrxBOKyZV0H6yPU" Location="VL.SharedMemory" Version="0.0.3" />
-  <NugetDependency Id="MHOXZKgethENyNXRrKEV2v" Location="VL.Stride.Windows" Version="2021.4.0-0594-g2802d941cd" />
+  <NugetDependency Id="MHOXZKgethENyNXRrKEV2v" Location="VL.Stride.Windows" Version="2021.4.0-0613-g3afe96c078" />
 </Document>
