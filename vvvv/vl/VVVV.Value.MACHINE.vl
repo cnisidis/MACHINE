@@ -688,7 +688,7 @@
             </p:NodeReference>
             <Pin Id="NGLS89g6r55PcG5gmRQxmj" Name="Input" Kind="StateInputPin" />
             <Pin Id="NTxQgO4i7sGQTsOP0ZMWK7" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="LD4lMtjZiWpQNY7AnXrLuY" Name="Paly" Kind="OutputPin" />
+            <Pin Id="H6TjKFjCeiaPgNZ6MBxCfA" Name="Play" Kind="OutputPin" />
             <Pin Id="FUHXN0eYruZP3VdsYyN28Q" Name="Seek" Kind="OutputPin" />
             <Pin Id="SBFtROZ5xsYPSIKYfc19h4" Name="FadeIn" Kind="OutputPin" />
             <Pin Id="Np4PUdIENkiQFOrXaSNmOy" Name="FadeOut" Kind="OutputPin" />
@@ -720,7 +720,6 @@
           <ControlPoint Id="JAFprWonf1pP2O3qRza86l" Bounds="389,627" />
           <Pin Id="Sj8idvCtSHwOh51pOW1a8L" Name="FadeOut" Kind="OutputPin" Bounds="560,643" />
           <Link Id="N5Ap1IBXf8kOLpx8NQY3OL" Ids="JAFprWonf1pP2O3qRza86l,Sj8idvCtSHwOh51pOW1a8L" IsHidden="true" />
-          <Link Id="JizmoddKrPUQU9JiTDx6E3" Ids="LD4lMtjZiWpQNY7AnXrLuY,QcFGTtcedUKPKAXu3j5I3c" />
           <Link Id="SeHyTrr0xpkOM96JJOsV7a" Ids="DewBgbBk2BcO0LcOyHSKWg,UGY9JyFxtmSMyzgjr1acAh" />
           <Link Id="D6KimzQinfgP0PCvkQtbxE" Ids="AVzyTL04GR5LYTBJAAjt4O,B5wyiJFG0g8OWj3k1TlLCA" />
           <Link Id="NlYyrEkMyWQLd4p8CV3Zix" Ids="SBFtROZ5xsYPSIKYfc19h4,Uij44nzc7tMLNMcZ50uGBg" />
@@ -729,6 +728,7 @@
           <Link Id="DRCQssZsaE0OrYC8CBymVX" Ids="RX92OO5j8p0OdVlEZKSwys,D32HtUFnFcOML4xpRecTDA" />
           <Pin Id="HxgUPJeBfmbQAF2OOkqiUM" Name="Loop" Kind="OutputPin" Bounds="423,654" />
           <Link Id="CJuAnjkAeRVQWZbng9jFdU" Ids="D32HtUFnFcOML4xpRecTDA,HxgUPJeBfmbQAF2OOkqiUM" IsHidden="true" />
+          <Link Id="FXRNbb11OGPMUfuolaK9wI" Ids="H6TjKFjCeiaPgNZ6MBxCfA,QcFGTtcedUKPKAXu3j5I3c" />
         </Patch>
       </Node>
       <!--

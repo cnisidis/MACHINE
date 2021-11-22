@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<MACHINESettings>
+  <DeviceSettings CamerasCount="3">
+    <__slot_LMj4Lg1CLdXNZ1HvBxJ85z>
+      <Item></Item>
+      <Item></Item>
+      <Item></Item>
+    </__slot_LMj4Lg1CLdXNZ1HvBxJ85z>
+    <Cameras>
+      <Item Key="0" Value="0" />
+      <Item Key="1" Value="0" />
+      <Item Key="2" Value="1" />
+    </Cameras>
+  </DeviceSettings>
+  <Paths>
+    <Item Key="RESOURCES" Value="" />
+    <Item Key="CUE" Value="ASSETS\CUES\LX_CUES_03_CSV.csv" />
+  </Paths>
+</MACHINESettings>
