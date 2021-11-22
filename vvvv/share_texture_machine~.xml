@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="D:\Projects\VL_Repos\MACHINE\vvvv\share_texture_machine.v4p" scrollx="7590" scrolly="3750" systemname="share_texture_machine" filename="D:\Projects\VL_Repos\VL.CUE\vvvv\share_texture_machine.v4p">
+   <PATCH nodename="D:\Projects\VL_Repos\MACHINE\vvvv\share_texture_machine.v4p" scrollx="7590" scrolly="-360" systemname="share_texture_machine" filename="D:\Projects\VL_Repos\VL.CUE\vvvv\share_texture_machine.v4p">
    <BOUNDS type="Window" left="33930" top="5220" width="25695" height="15435">
    </BOUNDS>
    <NODE systemname="MainLoop (VVVV)" nodename="MainLoop (VVVV)" componentmode="Hidden" id="-6">
@@ -1966,4 +1966,8 @@
    </LINK>
    <LINK srcnodeid="250" srcpinname="Output" dstnodeid="233" dstpinname="Switch">
    </LINK>
+   <NODE systemname="UDP (Network Server)" nodename="UDP (Network Server)" componentmode="Hidden" id="251">
+   <BOUNDS type="Node" left="20640" top="525" width="100" height="100">
+   </BOUNDS>
+   </NODE>
    </PATCH>

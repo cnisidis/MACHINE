@@ -1,49 +1,71 @@
 AA	SCN	ΤΕΧΤ	PROJECTION	ORDER	FILES	FX	FXMODE	FXMODEVALUE	FXEXTRA
-10	A1	ΑΡΧΗ	1S	HANDY	NA	NONE	NONE	0	NONE
-20	A3	ΦΡ: ..για την ανθρωπότητα	1S	HANDY, SUPER, AUDIO	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg, C:\PROJECTS\LathosXwra\FOOTAGE\AUDIO\Λάθος χώρα 1ο Θέμα.aif	BLUE	ADD	0.64	BLUE
-25	A3	ΦΡ: .. τρεις ορόφους πιο ΚΑΤΩ.	1S	HANDY	NA	NONE	NONE	0	NONE
-30	A4	Κα: .. την Αμερική πριν πεθάνω.	1S	WEBC	NA	NONE	NONE	0	NONE
-40	A4	ΚΑΡΛ: .. αλλά μόνο από την αϋπνία.	1S	HANDY	NA	NONE	NONE	0	NONE
-70	A5	ΚΑΡΛ: .. παράξενο αίσθημα	1S	FOOTAGE, HANDY	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\Tirana-Albania.jpg	BLEND	BLEND	0.33	NONE
-80	A6	ΜΗΤ: .. “Φρεντερικ και Καρλ	3S	HANDY, WEBC, FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\person-pencil.jpg	NONE	NONE	0	NONE
-85	A6	ΜΗΤ: Κάθε μέρα η μητέρα έχανε ..	2S	FOOTAGE, HANDY	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\person-pencil.jpg	NONE	NONE	0	NONE
-90	A6	MHT: .. είχε πέσει στα χέρια της.	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
-100	A6	ΦΡ: ισχυρή ταυτότητα και την ευτυχία.	1S	WEBC	NA	NONE	NONE	0	NONE
-110	A6	ΝΤ: Το επόμενο πρωί	1S	HANDY	NA	NONE	NONE	0	NONE
-120	A7	(κίνηση με το χέρι για να μαζέψει χώμα)	2S	HANDY, WEBL	NA	NONE	NONE	0	NONE
-130	A7	(αλλαγή στην τρίτη ρίψη)	1S	HANDY	NA	NONE	NONE	0	NONE
-140	A8	ΚΑΡΛ: ΞΕΚΙΝΩΝΤΑΣ από το ίδιο ..	1S	WEBL	NA	NONE	NONE	0	NONE
-150	A8	ΦΡ: .. και Γερμανοί αστυνομικοί.	1S	HANDY	NA	NONE	NONE	0	NONE
-160	A8	ΦΡ: .. κάτω από τα πόδια του	1S	WEBL	NA	NONE	NONE	0	NONE
-170	A8	ΚΑΡΛ:  Tiranovskaja Biblioteka	1S	HANDY	NA	NONE	NONE	0	NONE
-180	A8	ΦΡ: .. αλλάξει.	1S	WEBL	NA	NONE	NONE	0	NONE
-190	A10	ΑΛ: ..στα Τίρανα	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
-200	A10	ΜΑΡ: 20 Φεβρουαρίου1991	1S	HANDY	NA	NONE	NONE	0	NONE
-210	A11	ΜΑΡ: .. Cyndi Lauper και του Prince.	1S	HANDY, AUDIO	NA	NONE	NONE	0	NONE
-205	A10	ΝΤ: ΔΕΞΙΟ μηρό	1S	WEBC	NA	NONE	NONE	0	NONE
-215	Α11	ΘΩ: Στις 4 τα ξημερώματα	1S	WEBC	NA	NONE	NONE	0	NONE
-220	A12	ΑΛ: Μήπως ψάχνεις το παπούτσι ΣΟΥ	1S	HANDY	NA	NONE	NONE	0	NONE
-225	A12	ΝΤ: Μετά από 20 Χρόνια ..	1S	HANDY	NA	NONE	NONE	0	NONE
-227	Α12	ΘΩ: ΘΑ ΗΘΕΛΑ πολύ να κοιμηθουμε ..	1S	HANDY	NA	NONE	NONE	0	NONE
-230	A13	ΜΠΛ: Όταν Ξύπνησε την επόμενη ..	1S	WEBC	NA	NONE	NONE	0	NONE
-240	A13	ΜΠΛ: .. στην πολυκατοικία της,	1S	WEBL	NA	NONE	NONE	0	NONE
-250	A13	ΜΠΛ: Ανέβηκε διστακτικά ..	1S	HANDY	NA	NONE	NONE	0	NONE
-260	B1	ΝΤ: 1991	1S	FOOTAGE	NA	NONE	NONE	0	NONE
-270	B1	ΘΩ: ..προς τα πού ΠΗΓΑΙΝΑΝ.	1S	HANDY, FOOTAGE	NA	BLEND	BLEND	0.2	NONE
-280	B1	ΕΛ: Ο Καρλ σηκώθηκε όρθιος …	1S	HANDY	NA	NONE	NONE	0	NONE
-290	B2	ΝΤ: ΣΤΙΣ 4 ΝΟΕΜΒΡΙΟΥ ..	1S	WEBR	NA	NONE	NONE	0	NONE
-300	B2	ΕΛ: TOTE τον πλησίασε μια ..	1S	HANDY	NA	NONE	NONE	0	NONE
-310	B2	ΘΩ: Εκείνη τη στιγμή ..	1S	HANDY, WEBR	NA	BLEND	BLEND	0.6	NONE
-315	B2	που μιλούσε γαλλικά.	1S	HANDY	NA	NONE	NONE	0	NONE
-320	B3	ΝΤ: Ευγνωμοσύνη! (χαμογελάει)	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
-330	B4	PLAYBACK VIDEO	1S	HANDY	NA	NONE	NONE	0	NONE
-340	B5	TV – ΣΗΜΑ	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\TV_LIVE\tv_live_em_0001-0150.mov	NONE	NONE	0	NONE
-350	B5	TV	1S	HANDY	NA	NONE	NONE	0	NONE
-360	B5	ΝΤ: .. Δεν ντρέπεστε καθόλου;	1S	HANDY	NA	NONE	NONE	0	NONE
-370	B6	ΕΛ: 2013. 	1S	WEBR	NA	NONE	NONE	0	NONE
-400	B6	ΘΩ: .. απίστευτο ψιθύρισε ο Καρλ.	1S	SEQUENCE	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\FILI_LIVE\	BLEND	BLEND	0.6	NONE
-410	B6	ΝΤ: .. την ημέρα	1S	SEQUENCE, WEBR	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\FILI_LIVE\	BLEND	BLEND	0.6	NONE
-410	B6	ΝΤ: .. να ξεφύγει	1S	WEBR	NA	NONE	NONE	0	NONE
-410	B6	ΘΩ: .. πριν από 22 χρόνια.	1S	SEQUENCE, WEBR	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\FILI_LIVE\	BLEND	BLEND	0.6	NONE
-410	B6	ΘΩ: .. μέσα για τα ΚΑΛΑ.	1S	WEBR	NA	NONE	NONE	0	NONE
-410	B6	ΟΛΟΙ: για την ΑΜΕΡΙΚΗ!	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
+0	Α0	ΕΝΑΡΞΗ	1S	HANDY	NA	BLACK	MULT	1	BLACK
+1	A1	Το Τερς!	1S	HANDY	NA	NONE	NONE	0	NONE
+2	A3	ΦΡ: ..για την ανθρωπότητα	1S	HANDY	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
+3	A3	ΤΙΤΛΟΙ (OFF)	1S	HANDY	NA	NONE	NONE	0	NONE
+4	A3	ΦΡ: .. τρεις ορόφους πιο ΚΑΤΩ.	1S	HANDY	NA	NONE	NONE	0	NONE
+5	A4	ΕΛ: Ο αδερφός του ο Φρεντερίκ ..	1S	WEBC	NA	NONE	NONE	0	NONE
+6	A4	ΚΑΡΛ: .. αλλά μόνο από την αϋπνία.	1S	HANDY	NA	NONE	NONE	0	NONE
+7	A4	ΕΛ: Στο παλιό παιδικό μας δωμάτιο ..	1S	HANDY	NA	NONE	NONE	0	NONE
+8	A5	ΚΑΡΛ: .. παράξενο αίσθημα	1S	FOOTAGE, HANDY	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\Tirana-Albania.jpg	BLEND	BLEND	0.33	NONE
+9	A6	ΘΩ: Ένα σύντομο σημείωμα ..	2S	HANDY, FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\person-pencil.jpg	NONE	NONE	0	NONE
+10	A6	ΜΗΤ: Κάθε μέρα η μητέρα έχανε ..	1S	HANDY	NA	NONE	NONE	0	NONE
+11	A6	MHT: .. είχε πέσει στα χέρια της.	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
+12	A6	ΦΡ: ισχυρή ταυτότητα και την ευτυχία.	1S	WEBC	NA	NONE	NONE	0	NONE
+13	A6	ΝΤ: Το επόμενο πρωί	1S	HANDY	NA	NONE	NONE	0	NONE
+14	A7	(κίνηση με το χέρι για να μαζέψει χώμα)	2S	HANDY, WEBL	NA	NONE	NONE	0	NONE
+15	A7	(αλλαγή στην τρίτη ρίψη)	1S	HANDY	NA	NONE	NONE	0	NONE
+16	Α7	ΕΛ: Τόσο λιγότερη ταυτότητα	1S	WEBL	NA	NONE	NONE	0	NONE
+17	Α8	DOC Έλιο (οπτικό)	1S	HANDY	NA	NONE	NONE	0	NONE
+18	A9	ΚΑΡΛ: ΞΕΚΙΝΩΝΤΑΣ από το ίδιο ..	1S	WEBL	NA	NONE	NONE	0	NONE
+19	A9	ΚΑΡΛ: Δεν θέλω να το διαβάσω!	1S	WEBL	NA	NONE	NONE	0	NONE
+20	A9	ΦΡ: .. και Γερμανοί αστυνομικοί.	1S	HANDY	NA	NONE	NONE	0	NONE
+21	A9	ΦΡ: .. κάτω από τα πόδια του	1S	WEBL	NA	NONE	NONE	0	NONE
+22	A10	ΕΛ: Ο ΠΑΤΕΡΑΣ ..	1S	HANDY	NA	NONE	NONE	0	NONE
+23	A10	ΕΛ: ΟΣΟ περνούσαν τα χρόνια ..	1S	WEBL	NA	NONE	NONE	0	NONE
+24	A10	ΕΛ: για αυτούς τους ΑΝΘΡΩΠΟΥΣ	1S	HANDY	NA	NONE	NONE	0	NONE
+25	A10	ΦΡ: .. αλλάξει.	1S	WEBL	NA	NONE	NONE	0	NONE
+26	Α11	ΑΛ: ..στα Τίρανα	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
+27	Α11	Ελ: Από τη λέξη συλλογικό	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
+28	Α11	ΜΑΡ: 20 Φεβρουαρίου1991	1S	HANDY	NA	NONE	NONE	0	NONE
+29	A12	ΜΑΡ: .. Cyndi Lauper και του Prince.	1S	HANDY	NA	NONE	NONE	0	NONE
+30	A12	ΝΤ: ΔΕΞΙΟ μηρό	1S	WEBC	NA	NONE	NONE	0	NONE
+31	A12	ΘΩ: Στις 4 τα ξημερώματα	1S	WEBC	NA	NONE	NONE	0	NONE
+32	A13	ΑΛ: Μήπως ψάχνεις .. (οπτικό)	1S	HANDY	NA	NONE	NONE	0	NONE
+33	A13	ΝΤ: Μετά από 20 Χρόνια .. (REC)	1S	HANDY	NA	NONE	NONE	0	NONE
+34	A13	ΘΩ: ΘΑ ΗΘΕΛΑ πολύ να κοιμηθουμε .. (REC STOP)	1S	HANDY	NA	NONE	NONE	0	NONE
+35	A14	ΜΠΛ: Όταν Ξύπνησε την επόμενη ..	1S	WEBC	NA	NONE	NONE	0	NONE
+36	A14	ΜΠΛ: .. στην πολυκατοικία της,	1S	HANDY	NA	NONE	NONE	0	NONE
+37	A14	ΕΛ: Ο αποχωρισμός ήταν για μια ζωή	1S	WEBC	NA	NONE	NONE	0	NONE
+38	A14	TITLOI OFF	1S	WEBC	NA	NONE	NONE	0	NONE
+39	B1	Οπτικό ΘΩΜΑΣ doc	1S	HANDY	NA	NONE	NONE	0	NONE
+40	B1	ΝΤ: 1991	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
+41	B1	ΘΩ: ..προς τα πού ΠΗΓΑΙΝΑΝ.	1S	WEBR	NA	BLEND	BLEND	0.2	NONE
+42	B1	ΕΛ: Με αγριεμένες φάτσες (οπτικό)	1S	HANDY	NA	NONE	NONE	0	NONE
+43	B1	ΕΛ: αίσθηση της ήττας	1S	WEBR	NA	NONE	NONE	0	NONE
+44	B1	ΘΩ: Τόσο απελπιστικά προβλέψιμη (οπτικό)	1S	HANDY	NA	NONE	NONE	0	NONE
+45	B2	ΝΤ: ΣΤΙΣ 4 ΝΟΕΜΒΡΙΟΥ ..	1S	WEBR	NA	NONE	NONE	0	NONE
+46	B2	ΕΛ: TOTE τον πλησίασε μια ..	1S	HANDY	NA	NONE	NONE	0	NONE
+47	B2	ΘΩ: Εκείνη τη στιγμή ..	1S	HANDY, WEBR	NA	BLEND	BLEND	0.6	NONE
+48	B2	που μιλούσε γαλλικά.	1S	HANDY	NA	NONE	NONE	0	NONE
+49	B3	ΝΤ: από τη θέση της, ..	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\KLEIO\LX_cut_04.mov	NONE	NONE	0	NONE
+50	B4	ΘΩ: Βρήκε ένα σημείωμα ..	1S	HANDY	NA	NONE	NONE	0	NONE
+51	B4	NT: της απουσίας του ΑΝΥΠΟΦΟΡΟΣ	2S	HANDY, FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	NONE	0	NONE
+52	B5	TV – ΣΗΜΑ	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\TV_LIVE\tv_live_em_0001-0150.mov	NONE	NONE	0	NONE
+53	Β5	ΕΛ: Καλησπέρα σας	1S	HANDY	NA	NONE	NONE	0	NONE
+54	B5	TV	1S	HANDY	NA	NONE	NONE	0	NONE
+55	B5	ΝΤ: .. Δεν ντρέπεστε καθόλου;	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\TV_LIVE\tv_live_em_0001-0150.mov	NONE	NONE	0	NONE
+56	Β6	οπτικό (Ντέμπορα DOC)	1S	HANDY	NA	NONE	NONE	0	NONE
+57	B6	ΕΛ: 2013. 	1S	WEBR	NA	NONE	NONE	0	NONE
+58	B6	ΘΩ: .. απίστευτο ψιθύρισε ο Καρλ.	1S	SEQUENCE	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\FILI_LIVE\	BLEND	BLEND	0.6	NONE
+59	B6	ΝΤ: .. την ημέρα	1S	SEQUENCE, WEBR	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\FILI_LIVE\	BLEND	BLEND	0.6	NONE
+60	B6	ΝΤ: .. να ξεφύγει	1S	WEBR	NA	NONE	NONE	0	NONE
+61	B6	ΘΩ: .. πριν από 22 χρόνια.	1S	SEQUENCE, WEBR	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\FILI_LIVE\	BLEND	BLEND	0.6	NONE
+62	B6	ΘΩ: .. μέσα για τα ΚΑΛΑ.	1S	WEBR	NA	NONE	NONE	0	NONE
+63	B6	ΟΛΟΙ: για την ΑΜΕΡΙΚΗ!	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	BLACK	MULT	1	BLACK
+64	B6	…	1S	FOOTAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	BLACK	MULT	1	BLACK
+65	B6	ΘΩ: ΤΑ ΤΕΛΕΥΤΑΙΑ 5 χρόνια ..	1S	WEBL	NA	NONE	NONE	0	NONE
+66	B6	ΤΡΙΤΟ ΜΕΡΟΣ	1S	WEBL	NA	NONE	NONE	0	NONE
+67	B6	TITLOI OFF	1S	WEBL	NA	NONE	NONE	0	NONE
+68	C1	ΘΩ: ΤΕΛΕΥΤΑΙΑ φορά .. (οπτικό)	1S	WEBC	NA	NONE	NONE	0	NONE
+69	C1	ΕΛ: Ο Καρλ είπε ..	1S	HANDY	NA	NONE	NONE	0	NONE

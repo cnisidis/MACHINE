@@ -48,6 +48,7 @@
             <Pin Id="PjDHaTV4tmrLlkgXT8Rejq" Name="TextureFX" Kind="OutputPin" Bounds="1332,1302" />
             <Pin Id="TGSY9hNpKGHM1HPHid1CUo" Name="TextureFXName" Kind="OutputPin" Bounds="1376,1263" />
             <Pin Id="G63fNHts7phQQuLdG3WXba" Name="SCREENTYPE" Kind="OutputPin" Bounds="452,1213" />
+            <Pin Id="LW85KntQd3RPZoY0WSuosL" Name="Sequence" Kind="OutputPin" Bounds="1508,1312" />
           </Patch>
           <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">
             <ControlPoint Id="CPLjRiO3v5ZLLgtJLnlQ9q" Bounds="485,59" />
@@ -518,6 +519,41 @@
               <Pin Id="ODmpjO9FPcaNhrX3UWgPPU" Name="Result" Kind="OutputPin" />
             </Node>
             <Pad Id="OghsR9FWRHYMjx56BXWcU4" Comment="" Bounds="276,98,88,15" ShowValueBox="true" isIOBox="true" />
+            <Node Bounds="1499,856,49,19" Id="CLRfAiemNVUM9hpWeSEMXA">
+              <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="OfType" />
+                <CategoryReference Kind="MutableInterfaceType" Name="Sequence" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="CtvyWwBFYOfL5dsolPq1cA" Name="Input" Kind="InputPin" />
+              <Pin Id="NYjQi5cZZW3OVFxu9PpsDk" Name="Result" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="1487,916,77,188" Id="DPRCOoVezwCLns9wZUVXUD">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
+                <CategoryReference Kind="Category" Name="Primitive" />
+              </p:NodeReference>
+              <Pin Id="Byw7LuFpgmLOG3N855BZMt" Name="Break" Kind="OutputPin" />
+              <Patch Id="B4rfJ1PbuquNXeeFTYBd63" ManuallySortedPins="true">
+                <Patch Id="TXqM48S9qs9QUsrwItpJQz" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="IwEX2RgNWnBMLCBdq4GfXm" Name="Update" ManuallySortedPins="true" />
+                <Patch Id="U5IGKpvtXhAMsbX4lDuSoR" Name="Dispose" ManuallySortedPins="true" />
+                <Node Bounds="1500,954,52,26" Id="CvRfnuimbJ3PBZaLsUxvIU">
+                  <p:NodeReference LastCategoryFullName="VL.CUE.Core.CUE.Sequence" LastSymbolSource="VL.CUE.Core.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="MutableInterfaceType" Name="Sequence" />
+                    <Choice Kind="OperationCallFlag" Name="Filepath" />
+                  </p:NodeReference>
+                  <Pin Id="OvceqpwULieNX6h4f40pJ0" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="SIKZWOyuN2UNAAoP28FiAI" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="BFodnsUfCmBLcZWsor6Sj0" Name="FilePath" Kind="OutputPin" />
+                </Node>
+              </Patch>
+              <ControlPoint Id="AzvL3HNcMwkNAOERyDzC2E" Bounds="1501,923" Alignment="Top" />
+              <ControlPoint Id="L5WCGQzIZWiMwImP8LgHlO" Bounds="1503,1098" Alignment="Bottom" />
+            </Node>
+            <ControlPoint Id="GHUHUnDuSr5MBnSMhHVWKX" Bounds="1508,1312" />
           </Canvas>
           <ProcessDefinition Id="FHNLl8GWgcVOJzRkkPI83E">
             <Fragment Id="MRFnVwHDf0WOO7H3jKbCxI" Patch="ESJZDDS0I02LAWDOx9RJVV" Enabled="true" />
@@ -613,6 +649,12 @@
           <Link Id="SX0SzGVggSdPL8OkWoeE0X" Ids="HYCSn030f0rQWtFCX7tqJH,D11vmwiLRVkOMCvYzfYDSL" />
           <Link Id="HqXaNo5VuagLyoJlcVgeTS" Ids="ODmpjO9FPcaNhrX3UWgPPU,OghsR9FWRHYMjx56BXWcU4" />
           <Link Id="EuyYJFR8Yx7QUz2oOq5OHZ" Ids="QDSbwtOuFo2OvdTjDJaMfN,OGevKrLz1oHMerOZMJOuAq" />
+          <Link Id="MFKP5HS80NqL0FCOFfnAGq" Ids="NYjQi5cZZW3OVFxu9PpsDk,AzvL3HNcMwkNAOERyDzC2E" />
+          <Link Id="Idv3x2pMhrmLPhQYbCOyp0" Ids="HiPzfa8IA0vNGPv5RiHhEo,CtvyWwBFYOfL5dsolPq1cA" />
+          <Link Id="UxDVYxCIXPNMr24BqarlcA" Ids="AzvL3HNcMwkNAOERyDzC2E,OvceqpwULieNX6h4f40pJ0" />
+          <Link Id="Pupok55SD3ONCSrnTuZbig" Ids="SIKZWOyuN2UNAAoP28FiAI,L5WCGQzIZWiMwImP8LgHlO" />
+          <Link Id="Goxgj7VP2ycMu3gP0UUvXn" Ids="L5WCGQzIZWiMwImP8LgHlO,GHUHUnDuSr5MBnSMhHVWKX" />
+          <Link Id="Hx9qaCph1jyP3X26YGp4P5" Ids="GHUHUnDuSr5MBnSMhHVWKX,LW85KntQd3RPZoY0WSuosL" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -789,6 +831,37 @@
           <Link Id="PaGxACswNCWOBnQ5ZSuMLb" Ids="EHkBTOSU7eaORYptnOjphA,Me6pDGpbymSMnF9o83oTtm" />
           <Pin Id="ClK9vSIosFeM9ps0etZwR7" Name="mode" Kind="OutputPin" Bounds="803,532" />
           <Link Id="OJP3AjFDB1cLCWcP2MX3tE" Ids="Me6pDGpbymSMnF9o83oTtm,ClK9vSIosFeM9ps0etZwR7" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ SplitVideoCUE ************************
+
+-->
+      <Node Name="SplitVideoCUE" Bounds="285,788,80,80" Id="RvLSW3EQCklMzaA3itlREY">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="OperationDefinition" Name="Operation" />
+        </p:NodeReference>
+        <Patch Id="TK3IdTUNrxFOYqqTyPCaQ9" />
+      </Node>
+      <!--
+
+    ************************ SplitSequenceCUE ************************
+
+-->
+      <Node Name="SplitSequenceCUE" Bounds="499,764,171,131" Id="HVNcSWwoATmMBuM3a9mGVJ">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="OperationDefinition" Name="Operation" />
+        </p:NodeReference>
+        <Patch Id="Ok95Y1HS7rqPNHoH6giqmk">
+          <Pin Id="D9FhS70reeENXPJDvhGiPB" Name="Input" Kind="InputPin">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="Sequence" />
+              <FullNameCategoryReference ID="VL.CUE.Core.CUE" />
+            </p:TypeAnnotation>
+          </Pin>
+          <ControlPoint Id="RdeXAQmIc2oQYtoWmcNQ8z" Bounds="542,803" />
+          <Link Id="LLSnJILJP1KNb36OuCNZGN" Ids="D9FhS70reeENXPJDvhGiPB,RdeXAQmIc2oQYtoWmcNQ8z" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
