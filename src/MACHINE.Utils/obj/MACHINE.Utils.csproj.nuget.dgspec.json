@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\VL_Repos\\MACHINE\\src\\MACHINE.Utils\\MACHINE.Utils.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\VL_Repos\\MACHINE\\src\\MACHINE.Utils\\MACHINE.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\VL_Repos\\MACHINE\\src\\MACHINE.Utils\\MACHINE.Utils.csproj",
+        "projectName": "MACHINE.Utils",
+        "projectPath": "D:\\Projects\\VL_Repos\\MACHINE\\src\\MACHINE.Utils\\MACHINE.Utils.csproj",
+        "packagesPath": "C:\\Users\\makei\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\VL_Repos\\MACHINE\\src\\MACHINE.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\makei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\makei\\AppData\\Local\\Xenko\\NugetDev": {},
+          "C:\\Users\\makei\\AppData\\Local\\vvvv\\gamma-preview\\nugets": {},
+          "C:\\Users\\makei\\AppData\\Local\\vvvv\\gamma\\nugets": {},
+          "http://teamcity.vvvv.org/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+D:\Projects\VL_Repos\MACHINE\src\MACHINE.Utils\bin\Debug\netstandard2.0\MACHINE.Utils.deps.json
+D:\Projects\VL_Repos\MACHINE\src\MACHINE.Utils\bin\Debug\netstandard2.0\MACHINE.Utils.dll
+D:\Projects\VL_Repos\MACHINE\src\MACHINE.Utils\bin\Debug\netstandard2.0\MACHINE.Utils.pdb
+D:\Projects\VL_Repos\MACHINE\src\MACHINE.Utils\obj\Debug\netstandard2.0\MACHINE.Utils.csprojAssemblyReference.cache
+D:\Projects\VL_Repos\MACHINE\src\MACHINE.Utils\obj\Debug\netstandard2.0\MACHINE.Utils.AssemblyInfoInputs.cache
+D:\Projects\VL_Repos\MACHINE\src\MACHINE.Utils\obj\Debug\netstandard2.0\MACHINE.Utils.AssemblyInfo.cs
+D:\Projects\VL_Repos\MACHINE\src\MACHINE.Utils\obj\Debug\netstandard2.0\MACHINE.Utils.csproj.CoreCompileInputs.cache
+D:\Projects\VL_Repos\MACHINE\src\MACHINE.Utils\obj\Debug\netstandard2.0\MACHINE.Utils.dll
+D:\Projects\VL_Repos\MACHINE\src\MACHINE.Utils\obj\Debug\netstandard2.0\MACHINE.Utils.pdb

@@ -16,15 +16,8 @@
         </p:NodeReference>
         <Patch Id="CzjSvRY5dvXQDxmAOA8mZj">
           <Patch Id="ESJZDDS0I02LAWDOx9RJVV" Name="Create" />
-          <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update">
-            <Pin Id="CCqYhAvRSaFPlHVE1OVEX6" Name="Image" Kind="InputPin">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Image" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Patch>
+          <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update" />
           <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">
-            <ControlPoint Id="OjI9S7ik0LwMiNiiMgIu6X" Bounds="212,215" />
             <Node Bounds="336,218,105,19" Id="TL9ulXowGPvPgBSLUFruX1">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -185,7 +178,6 @@
             <Fragment Id="MRFnVwHDf0WOO7H3jKbCxI" Patch="ESJZDDS0I02LAWDOx9RJVV" Enabled="true" />
             <Fragment Id="PulIQZQ5YLtPp6C2yvbTNE" Patch="OkqGvJfa3PDOppp4PFQghD" Enabled="true" />
           </ProcessDefinition>
-          <Link Id="IozmYMs4HfsQTsvYXtYQZD" Ids="CCqYhAvRSaFPlHVE1OVEX6,OjI9S7ik0LwMiNiiMgIu6X" IsHidden="true" />
           <Link Id="DJeBsdpiR0NQbInFi5rnsk" Ids="TwxtH9HRVm1OjLecHtnABf,BKcrbgvTpxzNPdxAdrFodv" />
           <Link Id="P7K9TkfoLn7OxJeIylnY0i" Ids="GBIeoDz05uVL0Vouqw9izP,PsliBfhKVgRLBXoyURSvWu" IsHidden="true" />
           <Link Id="GzhcYXy8evONKExGfdKCO4" Ids="PAmInX0mFyuOSVn3Mmy0rW,Jy30ddAZ5CSMOqef1NQMBV" IsHidden="true" />
