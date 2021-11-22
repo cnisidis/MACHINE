@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="D:\Projects\VL_Repos\MACHINE\vvvv\modules\MACHINESharedTextures.v4p" systemname="MACHINESharedTextures" filename="D:\Projects\VL_Repos\MACHINE\vvvv\modules\MACHINESharedTextures.v4p">
+   <PATCH nodename="D:\Projects\VL_Repos\MACHINE\vvvv\modules\MACHINESharedTextures.v4p" systemname="MACHINESharedTextures" filename="D:\Projects\VL_Repos\MACHINE\vvvv\modules\MACHINESharedTextures.v4p" scrollx="0" scrolly="630">
    <NODE systemname="Reader (Raw SharedMemory)" nodename="Reader (Raw SharedMemory)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="2415" top="3060" width="100" height="100">
    </BOUNDS>
@@ -177,7 +177,7 @@
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
-   <PIN pinname="Index" slicecount="1" values="1">
+   <PIN pinname="Index" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE systemname="GetSlice (Spreads)" nodename="GetSlice (Spreads)" componentmode="Hidden" id="14">
@@ -197,49 +197,7 @@
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
-   <PIN pinname="Index" slicecount="1" values="1">
-   </PIN>
-   </NODE>
-   <NODE systemname="FromSharedTexture (DX11.Texture 2d)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="FromSharedTexture (DX11.Texture 2d)" componentmode="Hidden" id="16">
-   <BOUNDS type="Node" left="2385" top="6480" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="2385" top="6480" width="3000" height="3000">
-   </BOUNDS>
-   <PIN pinname="Pointer" visible="1" slicecount="3" values="4294967295,4294967295,4294967295">
-   </PIN>
-   <PIN pinname="Texture" visible="1">
-   </PIN>
-   <PIN pinname="Is Valid" visible="1">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="LEFT">
-   </PIN>
-   </NODE>
-   <NODE systemname="FromSharedTexture (DX11.Texture 2d)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="FromSharedTexture (DX11.Texture 2d)" componentmode="Hidden" id="17">
-   <BOUNDS type="Node" left="4785" top="6480" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="4785" top="6480" width="3000" height="3000">
-   </BOUNDS>
-   <PIN pinname="Pointer" visible="1" slicecount="3" values="4294967295,4294967295,4294967295">
-   </PIN>
-   <PIN pinname="Texture" visible="1">
-   </PIN>
-   <PIN pinname="Is Valid" visible="1">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="CENTER">
-   </PIN>
-   </NODE>
-   <NODE systemname="FromSharedTexture (DX11.Texture 2d)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="FromSharedTexture (DX11.Texture 2d)" componentmode="Hidden" id="18">
-   <BOUNDS type="Node" left="7515" top="6480" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="7515" top="6480" width="3000" height="3000">
-   </BOUNDS>
-   <PIN pinname="Pointer" visible="1" slicecount="3" values="4294967295,4294967295,4294967295">
-   </PIN>
-   <PIN pinname="Texture" visible="1">
-   </PIN>
-   <PIN pinname="Is Valid" visible="1">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="RIGHT">
+   <PIN pinname="Index" slicecount="1" values="2">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="19" systemname="IOBox (Node)">
@@ -280,15 +238,11 @@
    </LINK>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="13" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="13" srcpinname="Output" dstnodeid="16" dstpinname="Pointer">
-   </LINK>
    <LINK srcnodeid="0" srcpinname="Output" dstnodeid="6" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="6" srcpinname="Output" dstnodeid="9" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="8" srcpinname="Output" dstnodeid="9" dstpinname="Count">
-   </LINK>
-   <LINK srcnodeid="16" srcpinname="Texture" dstnodeid="19" dstpinname="Input Node">
    </LINK>
    <LINK srcnodeid="1" srcpinname="Output String" dstnodeid="0" dstpinname="Shared Memory Name">
    </LINK>
@@ -296,17 +250,9 @@
    </LINK>
    <LINK srcnodeid="0" srcpinname="Error" dstnodeid="3" dstpinname="Y Input Value">
    </LINK>
-   <LINK srcnodeid="14" srcpinname="Output" dstnodeid="17" dstpinname="Pointer">
-   </LINK>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="14" dstpinname="Input">
    </LINK>
-   <LINK srcnodeid="17" srcpinname="Texture" dstnodeid="20" dstpinname="Input Node">
-   </LINK>
    <LINK srcnodeid="4" srcpinname="Output" dstnodeid="15" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="15" srcpinname="Output" dstnodeid="18" dstpinname="Pointer">
-   </LINK>
-   <LINK srcnodeid="18" srcpinname="Texture" dstnodeid="21" dstpinname="Input Node">
    </LINK>
    <BOUNDS type="Window" left="42330" top="9705" width="9105" height="8835">
    </BOUNDS>
@@ -314,4 +260,50 @@
    </PACK>
    <PACK Name="addonpack" Version="42.0.0">
    </PACK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="22">
+   <BOUNDS type="Box" left="285" top="5370" width="1560" height="990">
+   </BOUNDS>
+   <BOUNDS type="Node" left="285" top="5370" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="3" values="0,,">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="|0, 0, 0|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="4" srcpinname="Output" dstnodeid="22" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="FromSharedTexture (DX11.Texture 2d)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="FromSharedTexture (DX11.Texture 2d)" componentmode="Hidden" id="23">
+   <BOUNDS type="Node" left="5040" top="5310" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5040" top="5310" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Pointer" visible="1" slicecount="3" values="4294967295,4294967295,4294967295">
+   </PIN>
+   <PIN pinname="Texture" visible="1">
+   </PIN>
+   <PIN pinname="Is Valid" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="LEFT">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="4" srcpinname="Output" dstnodeid="23" dstpinname="Pointer">
+   </LINK>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="24">
+   <BOUNDS type="Box" left="5070" top="8010" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="5070" top="8010" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Texture">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="23" srcpinname="Texture" dstnodeid="24" dstpinname="Input Node">
+   </LINK>
    </PATCH>
