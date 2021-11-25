@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Rb0QN47wHPUQYosY1hk1e4" LanguageVersion="2021.4.0.613" Version="0.128">
-  <NugetDependency Id="TkfCq4fJSDfLx2kKIHsgl7" Location="VL.CoreLib" Version="2021.4.0-0613-g3afe96c078" />
+<Document xmlns:p="property" Id="Rb0QN47wHPUQYosY1hk1e4" LanguageVersion="2021.4.0.455" Version="0.128">
+  <NugetDependency Id="TkfCq4fJSDfLx2kKIHsgl7" Location="VL.CoreLib" Version="2021.4.0-0455-gf5a76a21e8" />
   <Patch Id="F5UPh1KcB7TPUfhhfyCaIo">
     <Canvas Id="BQY5N5btw4QMK26q0mV3xd" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -27,7 +27,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="439,432,105,19" Id="VAKZStTDrlsNN97GiBprMi">
-              <p:NodeReference LastCategoryFullName="Stride.Rendering" LastSymbolSource="VL.Stride.Windows.vl">
+              <p:NodeReference LastCategoryFullName="Stride.Textures" LastSymbolSource="VL.Stride.Rendering.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="AsSharedTexture" />
               </p:NodeReference>
@@ -90,7 +90,7 @@
             <Node Bounds="438,392,105,19" Id="KqwLdn5ZEjQNEQLFsd6SaN">
               <p:NodeReference LastCategoryFullName="Video.MediaFoundation" LastSymbolSource="VL.Video.MediaFoundation.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="VideoIn (Stride)" />
+                <Choice Kind="ProcessAppFlag" Name="VideoIn" />
               </p:NodeReference>
               <Pin Id="MUGB6les3WyM5QD4kN6qXr" Name="Device" Kind="InputPin" />
               <Pin Id="NYMWyiAzuo0Lr8GB4zArKX" Name="Preferred Size" Kind="InputPin" />
@@ -163,9 +163,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="TFhUYJr4COHO1jNqMK7SgD" Location="VL.CoreLib" Version="2021.4.0-0613-g3afe96c078" />
-  <NugetDependency Id="LYROLxRrB9fOj122xRNlqv" Location="VL.Video.MediaFoundation" Version="1.0.5" />
-  <NugetDependency Id="LadfuAWwM6oMXKM42BUuRZ" Location="VL.Stride.Runtime" Version="2021.4.0-0613-g3afe96c078" />
+  <NugetDependency Id="TFhUYJr4COHO1jNqMK7SgD" Location="VL.CoreLib" Version="2021.4.0-0455-gf5a76a21e8" />
+  <NugetDependency Id="LYROLxRrB9fOj122xRNlqv" Location="VL.Video.MediaFoundation" Version="1.0.0" />
+  <NugetDependency Id="LadfuAWwM6oMXKM42BUuRZ" Location="VL.Stride.Runtime" Version="2021.4.0-0455-gf5a76a21e8" />
   <NugetDependency Id="QZzflWUwrxBOKyZV0H6yPU" Location="VL.SharedMemory" Version="0.0.3" />
-  <NugetDependency Id="MHOXZKgethENyNXRrKEV2v" Location="VL.Stride.Windows" Version="2021.4.0-0613-g3afe96c078" />
+  <NugetDependency Id="MHOXZKgethENyNXRrKEV2v" Location="VL.Stride.Windows" Version="2021.4.0-0455-gf5a76a21e8" />
 </Document>

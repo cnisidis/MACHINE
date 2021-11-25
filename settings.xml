@@ -9,8 +9,9 @@
     </__slot_LMj4Lg1CLdXNZ1HvBxJ85z>
     <Cameras>
       <Item Key="0" Value="0" />
-      <Item Key="1" Value="0" />
-      <Item Key="2" Value="1" />
+      <Item Key="1" Value="1" />
+      <Item Key="2" Value="2" />
+      <Item Key="3" Value="2" />
     </Cameras>
   </DeviceSettings>
   <Paths>

@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="D:\Projects\VL_Repos\MACHINE\vvvv\share_texture_machine.v4p" scrollx="3750" scrolly="-360" systemname="share_texture_machine" filename="D:\Projects\VL_Repos\VL.CUE\vvvv\share_texture_machine.v4p">
-   <BOUNDS type="Window" left="36690" top="5130" width="25695" height="15435">
+   <PATCH nodename="D:\Projects\VL_Repos\MACHINE\vvvv\share_texture_machine.v4p" scrollx="3450" scrolly="1230" systemname="share_texture_machine" filename="D:\Projects\VL_Repos\VL.CUE\vvvv\share_texture_machine.v4p">
+   <BOUNDS type="Window" left="31200" top="1665" width="25695" height="15435">
    </BOUNDS>
    <NODE systemname="FileTexture (DX11 2d)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="FileTexture (DX11 2d)" componentmode="Hidden" id="4">
    <BOUNDS type="Node" left="7005" top="4350" width="100" height="100">
@@ -116,6 +116,8 @@
    <PIN pinname="TextureFX" visible="1">
    </PIN>
    <PIN pinname="SCREENTYPE" visible="1">
+   </PIN>
+   <PIN pinname="number" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Reader (Raw SharedMemory)" nodename="Reader (Raw SharedMemory)" componentmode="Hidden" id="17">
@@ -1073,9 +1075,9 @@
    <LINK srcnodeid="16" srcpinname="SCREENS" dstnodeid="149" dstpinname="Input 1">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="185">
-   <BOUNDS type="Box" left="17880" top="9990" width="765" height="465">
+   <BOUNDS type="Box" left="17640" top="8655" width="825" height="1815">
    </BOUNDS>
-   <BOUNDS type="Node" left="17880" top="9990" width="0" height="0">
+   <BOUNDS type="Node" left="17640" top="8655" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -1137,7 +1139,7 @@
    </PIN>
    <PIN pinname="Input 1" visible="1">
    </PIN>
-   <PIN pinname="Input 2" visible="1">
+   <PIN pinname="Input 2" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Input 3" visible="1" slicecount="1" values="||">
    </PIN>
@@ -1216,8 +1218,6 @@
    </NODE>
    <LINK srcnodeid="210" srcpinname="Output String" dstnodeid="211" dstpinname="Filename">
    </LINK>
-   <LINK srcnodeid="211" srcpinname="Texture Out" dstnodeid="207" dstpinname="Input 2">
-   </LINK>
    <NODE systemname="FileTexture (DX11 2d)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="FileTexture (DX11 2d)" componentmode="Hidden" id="213">
    <BOUNDS type="Node" left="20850" top="9195" width="100" height="100">
    </BOUNDS>
@@ -1277,8 +1277,6 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="214" srcpinname="Output String" dstnodeid="215" dstpinname="Filename">
-   </LINK>
-   <LINK srcnodeid="215" srcpinname="Texture Out" dstnodeid="207" dstpinname="Input 4">
    </LINK>
    <NODE systemname="FileTexture (DX11 2d)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="FileTexture (DX11 2d)" componentmode="Hidden" id="217">
    <BOUNDS type="Node" left="22965" top="9210" width="100" height="100">
@@ -1758,7 +1756,7 @@
    <PIN pinname="Saturation" slicecount="1" values="1">
    </PIN>
    </NODE>
-   <NODE systemname="MACHINESharedTextures" filename="modules\MACHINESharedTextures.v4p" nodename="modules\MACHINESharedTextures.v4p" componentmode="InAWindow" id="264">
+   <NODE systemname="MACHINESharedTextures" filename="modules\MACHINESharedTextures.v4p" nodename="modules\MACHINESharedTextures.v4p" componentmode="Hidden" id="264">
    <BOUNDS type="Node" left="20810" top="7607" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="16253" top="3190" width="9115" height="8835">
@@ -1770,6 +1768,8 @@
    <PIN pinname="CAMR" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Texture" visible="1">
+   </PIN>
+   <PIN pinname="CAML" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="280">
@@ -1825,7 +1825,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="9525" top="16020" width="6000" height="4500">
    </BOUNDS>
-   <BOUNDS type="Window" left="30480" top="14010" width="6240" height="5085">
+   <BOUNDS type="Window" left="57690" top="6285" width="6240" height="4770">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -1904,22 +1904,10 @@
    </NODE>
    <LINK srcnodeid="255" srcpinname="Texture Out" dstnodeid="254" dstpinname="Texture In">
    </LINK>
-   <NODE systemname="Preview (DX11.Texture)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Preview (DX11.Texture)" componentmode="InAWindow" id="285">
-   <BOUNDS type="Node" left="23655" top="10935" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="23655" top="10935" width="6000" height="4500">
-   </BOUNDS>
-   <BOUNDS type="Window" left="59970" top="4545" width="6240" height="5085">
-   </BOUNDS>
-   <PIN pinname="Texture In" visible="1" slicecount="1" values="||">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="264" srcpinname="CAMC" dstnodeid="285" dstpinname="Texture In">
-   </LINK>
    <NODE systemname="GetSlice (Node)" nodename="GetSlice (Node)" componentmode="Hidden" id="286">
    <BOUNDS type="Node" left="22080" top="8115" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input Node" visible="1">
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Output Node" visible="1">
    </PIN>
@@ -1928,6 +1916,34 @@
    </NODE>
    <LINK srcnodeid="264" srcpinname="Texture" dstnodeid="286" dstpinname="Input Node">
    </LINK>
-   <LINK srcnodeid="286" srcpinname="Output Node" dstnodeid="207" dstpinname="Input 3">
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="287">
+   <BOUNDS type="Box" left="16110" top="4485" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="16110" top="4485" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="16" srcpinname="number" dstnodeid="287" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="264" srcpinname="CAMR" dstnodeid="207" dstpinname="Input 2">
+   </LINK>
+   <NODE systemname="Preview (DX11.Texture)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Preview (DX11.Texture)" componentmode="InAWindow" id="288">
+   <BOUNDS type="Node" left="23685" top="11160" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="23685" top="11160" width="6000" height="4500">
+   </BOUNDS>
+   <BOUNDS type="Window" left="51615" top="17040" width="6240" height="5085">
+   </BOUNDS>
+   <PIN pinname="Texture In" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="264" srcpinname="CAMR" dstnodeid="288" dstpinname="Texture In">
+   </LINK>
+   <LINK srcnodeid="264" srcpinname="CAML" dstnodeid="207" dstpinname="Input 4">
+   </LINK>
+   <LINK srcnodeid="264" srcpinname="CAMC" dstnodeid="207" dstpinname="Input 3">
    </LINK>
    </PATCH>
