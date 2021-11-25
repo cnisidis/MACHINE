@@ -6402,7 +6402,7 @@
             <Pin Id="MEtSAVAWNimNISsto9SPNU" Name="Input 2" Kind="InputPin" />
             <Pin Id="L5vOIbBZjkjN5zgwTiLVSW" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="U7kK5JreNuWQdIJUq3ssY3" Comment="File Name" Bounds="-1960,-1047,306,16" ShowValueBox="true" isIOBox="true" Value="C:\vvvv\vvvv_beta_42_x64\vvvv.exe">
+          <Pad Id="U7kK5JreNuWQdIJUq3ssY3" Comment="File Name" Bounds="-1990,-1055,306,16" ShowValueBox="true" isIOBox="true" Value="C:\vvvv\vvvv_beta_42_x64\vvvv.exe">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -7761,7 +7761,7 @@
             <Pin Id="BlSdevcgR6WPhyEK9je5Ub" Name="Output" Kind="StateOutputPin" />
             <Pin Id="CJOoOj54S57LgtTHzcJoG2" Name="DeviceSettings" Kind="OutputPin" />
           </Node>
-          <Pad Id="TxSXtDEO7qHMBasgml72yk" SlotId="PBCOUHynR5xMBsKKsznV3n" Bounds="-2178,-819" />
+          <Pad Id="TxSXtDEO7qHMBasgml72yk" SlotId="PBCOUHynR5xMBsKKsznV3n" Bounds="-2190,-828" />
           <Node Bounds="-2125,-719,81,26" Id="JIlzwC4vsRyNf59evMTsMB">
             <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableDictionary" LastSymbolSource="VL.Collections.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -7774,7 +7774,7 @@
             <Pin Id="IqZbB1AmqTZK9hmxCodJKY" Name="Result" Kind="OutputPin" />
             <Pin Id="UGbA8b9l4RHO0vG6gnomCM" Name="Value" Kind="OutputPin" />
           </Node>
-          <Node Bounds="-2181,-778,72,26" Id="Ew3hd0mqQG9Mp1Bp3uwZgr">
+          <Node Bounds="-2193,-787,72,26" Id="Ew3hd0mqQG9Mp1Bp3uwZgr">
             <p:NodeReference LastCategoryFullName="MACHINE.DevicesSettings" LastSymbolSource="MACHINE.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Cameras" />

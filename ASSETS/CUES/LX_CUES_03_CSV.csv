@@ -37,14 +37,14 @@ AA	SCN	TAG	ΤΕΧΤ	PROJECTION	TYPE	CONTENT	FX (name, mode, [values])	AUDIO (pla
 34	B2		που μιλούσε γαλλικά.	1S	HANDY	NA	NONE	
 35	B3		ΝΤ: Ευγνωμοσύνη! (χαμογελάει)	1S	IMAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	
 36	B4		PLAYBACK VIDEO	1S	HANDY	NA	NONE	
-37	B5		TV – ΣΗΜΑ	1S	VIDEO	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\TV_LIVE\tv_live_em_0001-0150.mov	NONE	
+37	B5		TV – ΣΗΜΑ	1S	VIDEO	D:\Projects\LathosXwra\resources\VIDEOS\TV_LIVE\tv_live_em_0001-0150.mov	NONE	1;0;0.1;12;1;0;
 38	B5		TV	1S	HANDY	NA	NONE	
 39	B5		ΝΤ: .. Δεν ντρέπεστε καθόλου;	1S	HANDY	NA	NONE	
 40	B6		ΕΛ: 2013. 	1S	WEBR	NA	NONE	
-41	B6		ΘΩ: .. απίστευτο ψιθύρισε ο Καρλ.	1S	SEQUENCE	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\FILI_LIVE\	BLEND; ADD; [0.4];	
-42	B6		ΝΤ: .. την ημέρα	1S	SEQUENCE, WEBR	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\FILI_LIVE\, NA	BLEND; ADD; [0.4];	
+41	B6		ΘΩ: .. απίστευτο ψιθύρισε ο Καρλ.	1S	SEQUENCE	D:\Projects\LathosXwra\resources\VIDEOS\FILI_LIVE_BKP	BLEND; ADD; [0.4];	
+42	B6		ΝΤ: .. την ημέρα	1S	SEQUENCE, WEBR	D:\Projects\LathosXwra\resources\VIDEOS\FILI_LIVE_BKP, NA	BLEND; ADD; [0.4];	
 43	B6		ΝΤ: .. να ξεφύγει	1S	WEBR	NA	NONE	
-44	B6		ΘΩ: .. πριν από 22 χρόνια.	1S	SEQUENCE, WEBR	C:\PROJECTS\LathosXwra\FOOTAGE\VIDEOS\FILI_LIVE\, NA	BLEND; ADD; [0.4];	
+44	B6		ΘΩ: .. πριν από 22 χρόνια.	1S	SEQUENCE, WEBR	D:\Projects\LathosXwra\resources\VIDEOS\FILI_LIVE_BKP, NA	BLEND; ADD; [0.4];	
 45	B6		ΘΩ: .. μέσα για τα ΚΑΛΑ.	1S	WEBR	NA	NONE	
-46	B6		ΟΛΟΙ: για την ΑΜΕΡΙΚΗ!	1S	IMAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	
+46	B6		ΟΛΟΙ: για την ΑΜΕΡΙΚΗ!	1S	IMAGE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	BLACK;MUL;[1];	
 47	B6		mid	1M	SEQUENCE	C:\PROJECTS\LathosXwra\FOOTAGE\PHOTOS\stadiou_00.jpg	NONE	

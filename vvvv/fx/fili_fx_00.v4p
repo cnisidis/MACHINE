@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta42.dtd" >
-   <PATCH nodename="C:\PROJECTS\LathosXwra-SETUP\vvvv-installation\VL_Repos\VL.CUE\vvvv\fx\fili_fx_00.v4p" systemname="fili_fx_00" filename="C:\PROJECTS\LathosXwra-SETUP\vvvv-installation\VL_Repos\VL.CUE\vvvv\fx\fili_fx_00.v4p" scrollx="0" scrolly="-360">
+   <PATCH nodename="D:\Projects\VL_Repos\MACHINE\vvvv\fx\fili_fx_00.v4p" systemname="fili_fx_00" filename="C:\PROJECTS\LathosXwra-SETUP\vvvv-installation\VL_Repos\VL.CUE\vvvv\fx\fili_fx_00.v4p" scrollx="0" scrolly="360">
    <NODE systemname="HSCB (DX11.TextureFX)" filename="%VVVV%\packs\dx11\nodes\texture11\Filter\HSCB.tfx" nodename="HSCB (DX11.TextureFX)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="1992" top="1500" width="100" height="100">
    </BOUNDS>
@@ -53,7 +53,7 @@
    </PIN>
    <PIN pinname="Control" visible="1">
    </PIN>
-   <PIN pinname="Amount" slicecount="1" values="0.1" visible="1">
+   <PIN pinname="Amount" slicecount="1" visible="1" values="0.1">
    </PIN>
    <PIN pinname="Enabled" visible="1">
    </PIN>
@@ -110,7 +110,7 @@
    </LINK>
    <LINK srcnodeid="5" srcpinname="Position Out" dstnodeid="4" dstpinname="Time">
    </LINK>
-   <BOUNDS type="Window" left="3516" top="3744" width="12012" height="8100">
+   <BOUNDS type="Window" left="32325" top="3975" width="12000" height="8100">
    </BOUNDS>
    <PACK Name="dx11" Version="1.3.1">
    </PACK>
@@ -183,9 +183,9 @@
    <LINK srcnodeid="11" srcpinname="Y Output Value" dstnodeid="3" dstpinname="DirectionXY">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="12">
-   <BOUNDS type="Box" left="1452" top="2892" width="792" height="240">
+   <BOUNDS type="Box" left="2457" top="2682" width="792" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="1452" top="2892" width="0" height="0">
+   <BOUNDS type="Node" left="2457" top="2682" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.07">
    </PIN>
@@ -261,22 +261,6 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="17" srcpinname="Change" dstnodeid="16" dstpinname="Enabled">
-   </LINK>
-   <NODE systemname="Map (Value)" nodename="Map (Value)" componentmode="Hidden" id="18">
-   <BOUNDS type="Node" left="5496" top="2400" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   <PIN pinname="Destination Maximum" slicecount="1" values="0.1">
-   </PIN>
-   <PIN pinname="Input" slicecount="1" visible="1" values="0.31">
-   </PIN>
-   <PIN pinname="Source Minimum" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Destination Minimum" slicecount="1" values="-0.11">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="16" srcpinname="Output" dstnodeid="18" dstpinname="Input">
    </LINK>
    <NODE systemname="Map (Value)" nodename="Map (Value)" componentmode="Hidden" id="19">
    <BOUNDS type="Node" left="8268" top="1512" width="100" height="100">
@@ -359,7 +343,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="8112" top="600" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
